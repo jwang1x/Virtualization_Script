@@ -41,3 +41,44 @@
 
 2022/09/23 13:23:40 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/release_ver_7.7.0_v3.zip meet requirements，not upload
 
+2022/09/23 13:32:38 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:32:39 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:32:40 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:32:46 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/imgs/OVMF-0.fd meet requirements，not upload
+
+2022/09/23 13:33:17 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/imgs/OVMF.fd meet requirements，not upload
+
+2022/09/23 13:33:17 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:17 - Terminal_Log - WARNING   - log_save.py : 25 line - About /home/BKCPkg/domains/virtualization/virtualization_inband/check_pcidev_exist.py : warning [Errno 2] No such file
+2022/09/23 13:33:17 - Terminal_Log - INFO      - log_save.py : 22 line - Mkdir /home/BKCPkg/domains/virtualization/virtualization_inband
+2022/09/23 13:33:17 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:33:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:33:20 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+

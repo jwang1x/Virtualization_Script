@@ -1,8 +1,0 @@
-2022/09/20 22:10:13 - logger1 - DEBUG     - log_save.py : 54 line - This is  DEBUG of logger1 !!
-2022/09/20 22:10:13 - logger1 - INFO      - log_save.py : 55 line - This is  INFO of logger1 !!
-2022/09/20 22:10:13 - logger1 - WARNING   - log_save.py : 56 line - This is  WARNING of logger1 !!
-2022/09/20 22:10:13 - logger1 - ERROR     - log_save.py : 57 line - This is  ERROR of logger1 !!
-2022/09/20 22:10:13 - logger1 - CRITICAL  - log_save.py : 58 line - This is  CRITICAL of logger1 !!
-2022-09-20 22:10:13,875 - WARNING   - log_save.py : 62 line - This is  WARNING of logger2 !!
-2022-09-20 22:10:13,875 - ERROR     - log_save.py : 63 line - This is  ERROR of logger2 !!
-2022-09-20 22:10:13,875 - CRITICAL  - log_save.py : 64 line - This is  CRITICAL of logger2 !!

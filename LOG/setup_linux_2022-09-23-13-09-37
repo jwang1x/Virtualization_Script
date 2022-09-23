@@ -1,1 +1,55 @@
 2022/09/23 13:17:37 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:30:37 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:30:47 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/imgs/OVMF-0.fd meet requirements，not upload
+
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/imgs/OVMF.fd meet requirements，not upload
+
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:48 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:49 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:50 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:50 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:50 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:50 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:50 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:50 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization to /home/BKCPkg/domains/virtualization
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/E810_CQDA2_O_SEC_FW_1p5p3p7_NVM_2p30_PLDMoMCTP_PASID_EN_80005E62_pldm_fixed.zip meet requirements，not upload
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/iavf-4.2.7.tar.gz meet requirements，not upload
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/ice-1.5.0_rc35_24_g9904f5da_dirty.tar.gz meet requirements，not upload
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/lanconf_1.35.22.1.tar.gz meet requirements，not upload
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/OVMF-0.fd meet requirements，not upload
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/OVMF.fd meet requirements，not upload
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/qat20.l.0.9.0-00023_1.zip meet requirements，not upload
+
+2022/09/23 13:30:51 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/vt_sut_linux_tools/release_ver_7.7.0_v3.zip meet requirements，not upload
+

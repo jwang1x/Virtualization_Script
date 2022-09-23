@@ -1,4 +1,4 @@
-from common import *
+from init_moudle import *
 
 
 class Set_up_v():

@@ -78,14 +78,14 @@ class Ssh():
         # only_upload_within_the_last_modify_time = only_upload_within_the_last_modify_time
         # file_volume_limit = file_volume_limit
 
-        t = paramiko.Transport((kwargs['ip'], kwargs['port']))
+        t = paramiko.Transport((kwargs['ip'], int(kwargs['ssh_port'])))
         t.connect(username=kwargs['user'], password=kwargs['password'])
         sftp = paramiko.SFTPClient.from_transport(t)
 
         # ssh = paramiko.SSHClient()
         # ssh.load_system_host_keys()
         # ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        # ssh.connect(kwargs['ip'], port=kwargs['port'], username=kwargs['user'], password=['password'], compress=True)
+        # ssh.connect(kwargs['ip'], port=kwargs['ssh_port'], username=kwargs['user'], password=['password'], compress=True)
         
         return sftp
 
@@ -120,31 +120,28 @@ class Ssh():
             parrent_dir = os.path.split(dir)[0]
             self._make_dir(sftp,parrent_dir, final_dir)
 
-    def _sftp_put(self,sftp,file_full_name, remote_full_file_name):
+    def _sftp_put(self,sftp,file_full_name, remote_full_file_name,log):
+        log.log_info(f"cp {file_full_name} to {remote_full_file_name}")
         sftp.put(file_full_name, remote_full_file_name)
+        log.log_info(f"cp done\n")
 
     def to_upload_file(self,kwargs,log):
         sftp = self._to_upload_connection(kwargs)
+        sftp.banner_timeout = int(kwargs['timeout'])
         for parent, dirnames, filenames in os.walk(kwargs['local_dir']):
             for filename in filenames:
                 file_full_name = os.path.join(parent, filename).replace('\\', '/')
                 if not self._judge_need_filter_a_file(kwargs,file_full_name):
                     remote_full_file_name = re.sub(f"^{kwargs['local_dir']}", kwargs['remote_dir'], file_full_name)
                     try:
-                        log.log_info(f"cp {kwargs['local_path']} to {kwargs['server_path']}")
-                        self._sftp_put(sftp,file_full_name, remote_full_file_name)
-                        log.log_info(f"cp done\n")
-
+                        self._sftp_put(sftp,file_full_name, remote_full_file_name,log)
                     except (FileNotFoundError,) as e:
                         log.log_warning(f"About {remote_full_file_name} : warning {e}")
                         log.log_info(f"Mkdir {os.path.split(remote_full_file_name)[0]}")
                         self._make_dir(sftp,os.path.split(remote_full_file_name)[0], os.path.split(remote_full_file_name)[0])
-
-                        log.log_info(f"cp {kwargs['local_path']} to {kwargs['server_path']}")
-                        self._sftp_put(sftp,file_full_name, remote_full_file_name)
-                        log.log_info(f"cp done\n")
+                        self._sftp_put(sftp,file_full_name, remote_full_file_name,log)
                 else:
-                    log.log_info(f"Documents {file_full_name} meet requirements，not upload\n")
+                    #log.log_info(f"Documents {file_full_name} meet requirements，not upload\n")
                     pass
 
 

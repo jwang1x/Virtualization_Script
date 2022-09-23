@@ -3468,3 +3468,14 @@ OpenIPMI-2.0.27-1.el8                 ########################################
 2022/09/22 13:03:31 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
 
 2022/09/22 13:03:32 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/OVMF-0.fd to /home/BKCPkg/domains/virtualization/imgs/OVMF-0.fd
+2022/09/22 13:03:36 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/22 13:03:36 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/OVMF-0.fd to /home/BKCPkg/domains/virtualization/imgs/OVMF.fd
+2022/09/22 13:03:41 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/22 13:03:41 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/release_ver_7.7.0_v3.zip to /home/BKCPkg/domains/virtualization/vt_sut_linux_tools/release_ver_7.7.0_v3.zip
+2022/09/22 13:03:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/22 13:03:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/qat20.l.0.9.0-00023_1.zip to /home/BKCPkg/domains/virtualization/vt_sut_linux_tools/qat20.l.0.9.0-00023_1.zip
+2022/09/22 13:03:51 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+

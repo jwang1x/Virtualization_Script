@@ -1,1 +1,44 @@
 2022/09/22 11:35:29 - Terminal_Log - INFO      - log_save.py : 22 line - run the section pre_step
+2022/09/22 11:37:29 - Terminal_Log - INFO      - log_save.py : 22 line - run the section pre_step
+2022/09/22 11:37:32 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  mkdir -p /home/BKCPkg/domains/virtualization
+2022/09/22 11:37:32 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:32 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/22 11:37:37 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  mkdir -p /home/BKCPkg/domains/virtualization/imgs
+2022/09/22 11:37:38 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:38 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/22 11:37:38 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  mkdir -p /home/BKCPkg/domains/virtualization/tools
+2022/09/22 11:37:39 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:39 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/22 11:37:39 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  mkdir -p /home/BKCPkg/domains/virtualization/vt_sut_linux_tools
+2022/09/22 11:37:39 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:39 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/22 11:37:40 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  mkdir -p /home/BKCPkg/domains/virtualization/virtualization_inband
+2022/09/22 11:37:40 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:40 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/22 11:37:40 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  rm -rf /usr/bin/python; ln -s /usr/bin/python3.6 /usr/bin/python
+2022/09/22 11:37:41 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:41 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/22 11:37:41 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  rm -rf /usr/bin/pip;ln -s /usr/bin/pip3.6 /usr/bin/pip
+2022/09/22 11:37:41 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:41 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/22 11:37:42 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  mkdir -p /etc/yum.repos.d/repos.bak; mv /etc/yum.repos.d/* /etc/yum.repos.d/repos.bak
+2022/09/22 11:37:42 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 11:37:42 - Terminal_Log - ERROR     - log_save.py : 28 line - err: mv: cannot move '/etc/yum.repos.d/repos.bak' to a subdirectory of itself, '/etc/yum.repos.d/repos.bak/repos.bak'
+ 
+
+2022/09/22 11:37:43 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad:  python -m pip install --upgrade pip

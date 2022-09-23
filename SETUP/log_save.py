@@ -1,13 +1,28 @@
-import logging
+from init_moudle import *
+
+class Log():
+
+    def __init__(self,kwargs):
+        self.terminal_init(kwargs)
 
 
-logging.basicConfig(level=logging.DEBUG #设置日志输出格式
-                    ,filename="demo.log" #log日志输出的文件位置和文件名
-                    ,filemode="w" #文件的写入格式，w为重新写入文件，默认是追加
-                    ,format="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s" #日志输出的格式
-                    # -8表示占位符，让输出左对齐，输出长度都为8位
-                    ,datefmt="%Y-%m-%d %H:%M:%S" #时间输出的格式
-                    )
+    def terminal_init(self,kwargs):
+        import  logging
+        self.Terminal_Log = logging.getLogger("Terminal_Log")
+        self.Terminal_Log.setLevel(logging.INFO)
+        fmt = logging.Formatter(fmt="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s", datefmt="%Y/%m/%d %H:%M:%S")
+        fh = logging.FileHandler(filename=kwargs, mode='a',encoding='utf-8')
+        fh.setFormatter(fmt)
+        sh = logging.StreamHandler()
+        sh.setFormatter(fmt)
+        self.Terminal_Log.addHandler(sh)
+        self.Terminal_Log.addHandler(fh)
 
+    def log_info(self,message):
+        self.Terminal_Log.info(message)
 
-class Log()
+    def log_warning(self, message):
+        self.Terminal_Log.warning(message)
+
+    def log_error(self,message):
+        self.Terminal_Log.error(message)

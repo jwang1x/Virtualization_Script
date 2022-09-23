@@ -2505,3 +2505,15 @@ OpenIPMI-2.0.27-1.el8                 ########################################
  
 
 2022/09/23 13:15:57 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:20:01 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:36:01 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:36:03 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/auto-poc.zip to /home/BKCPkg/domains/virtualization/auto-poc.zip
+2022/09/23 13:36:04 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:04 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/imgs/OVMF-0.fd meet requirements，not upload
+
+2022/09/23 13:36:04 - Terminal_Log - INFO      - log_save.py : 22 line - Documents ../FILES/linux/virtualization/imgs/OVMF.fd meet requirements，not upload
+
+2022/09/23 13:36:04 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/check_pcidev_exist.py to /home/BKCPkg/domains/virtualization/virtualization_inband/check_pcidev_exist.py
+2022/09/23 13:36:04 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
