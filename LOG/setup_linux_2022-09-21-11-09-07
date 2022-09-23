@@ -1,0 +1,20 @@
+2022/09/21 11:04:07 - Terminal_Log - INFO      - log_save.py : 26 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization
+2022/09/21 11:04:07 - Terminal_Log - INFO      - log_save.py : 26 line - out:  
+
+2022/09/21 11:04:07 - Terminal_Log - ERROR     - log_save.py : 32 line - err:  
+
+2022/09/21 11:04:08 - Terminal_Log - INFO      - log_save.py : 26 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization/imgs
+2022/09/21 11:04:08 - Terminal_Log - INFO      - log_save.py : 26 line - out:  
+
+2022/09/21 11:04:08 - Terminal_Log - ERROR     - log_save.py : 32 line - err:  
+
+2022/09/21 11:04:09 - Terminal_Log - INFO      - log_save.py : 26 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization/tools
+2022/09/21 11:04:09 - Terminal_Log - INFO      - log_save.py : 26 line - out:  
+
+2022/09/21 11:04:09 - Terminal_Log - ERROR     - log_save.py : 32 line - err:  
+
+2022/09/21 11:04:09 - Terminal_Log - INFO      - log_save.py : 26 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization/vt_sut_linux_tools
+2022/09/21 11:04:10 - Terminal_Log - INFO      - log_save.py : 26 line - out:  
+
+2022/09/21 11:04:10 - Terminal_Log - ERROR     - log_save.py : 32 line - err:  
+

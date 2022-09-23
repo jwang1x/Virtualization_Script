@@ -1,0 +1,2541 @@
+2022/09/23 13:37:19 - Terminal_Log - INFO      - log_save.py : 22 line - run the section pre_step
+2022/09/23 13:37:19 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; mkdir -p /home/BKCPkg/domains/virtualization
+2022/09/23 13:37:19 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:19 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:20 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; mkdir -p /home/BKCPkg/domains/virtualization/imgs
+2022/09/23 13:37:20 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:20 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:21 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; mkdir -p /home/BKCPkg/domains/virtualization/tools
+2022/09/23 13:37:21 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:21 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:21 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; mkdir -p /home/BKCPkg/domains/virtualization/vt_sut_linux_tools
+2022/09/23 13:37:22 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:22 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:22 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; mkdir -p /home/BKCPkg/domains/virtualization/virtualization_inband
+2022/09/23 13:37:22 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:22 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:23 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; mkdir -p /home/BKCPkg/tools
+2022/09/23 13:37:23 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:23 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:23 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; rm -rf /usr/bin/python; ln -s /usr/bin/python3.6 /usr/bin/python
+2022/09/23 13:37:24 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:24 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:24 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; rm -rf /usr/bin/pip;ln -s /usr/bin/pip3.6 /usr/bin/pip
+2022/09/23 13:37:24 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:24 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:37:25 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; python -m pip install --upgrade pip
+2022/09/23 13:37:26 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: pip in /usr/local/lib/python3.6/site-packages (21.3.1)
+ 
+
+2022/09/23 13:37:26 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:27 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; mkdir -p /etc/yum.repos.d/repos.bak; mv /etc/yum.repos.d/*.repo /etc/yum.repos.d/repos.bak
+2022/09/23 13:37:27 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:27 - Terminal_Log - ERROR     - log_save.py : 28 line - err: mv: cannot stat '/etc/yum.repos.d/*.repo': No such file or directory
+ 
+
+2022/09/23 13:37:28 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum update -y
+2022/09/23 13:37:29 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:29 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:29 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: yum remove qemu-kvm -y
+2022/09/23 13:37:30 - Terminal_Log - INFO      - log_save.py : 22 line - out: No match for argument: qemu-kvm
+Dependencies resolved.
+Nothing to do.
+Complete!
+ 
+
+2022/09/23 13:37:30 - Terminal_Log - ERROR     - log_save.py : 28 line - err: No packages marked for removal.
+ 
+
+2022/09/23 13:37:31 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install qemu-kvm -y
+2022/09/23 13:37:31 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:31 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:32 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install libvirt -y
+2022/09/23 13:37:32 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:32 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:33 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install python3-libvirt -y
+2022/09/23 13:37:33 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:33 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:34 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install virt-install -y
+2022/09/23 13:37:34 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:34 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:35 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install iperf -y
+2022/09/23 13:37:35 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:35 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:36 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install wget -y
+2022/09/23 13:37:36 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:36 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:37 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install virt-manager -y
+2022/09/23 13:37:37 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:37 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:38 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install tigervnc -y
+2022/09/23 13:37:38 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:38 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:39 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install systemd-devel -y
+2022/09/23 13:37:39 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:39 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:40 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install rpm-build autoconf automake libtool pkgconf rpmdevtools -y
+2022/09/23 13:37:40 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:40 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:41 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install asciidoc xmlto libuuid-devel json-c-devel kmod-devel libudev-devel -y
+2022/09/23 13:37:41 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:41 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:41 - Terminal_Log - INFO      - log_save.py : 22 line - run the section python_env_step
+2022/09/23 13:37:42 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install gcc-c++ -y
+2022/09/23 13:37:42 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:42 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:43 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install rust -y
+2022/09/23 13:37:43 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:43 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:44 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; yum install python36-devel -y
+2022/09/23 13:37:44 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:37:44 - Terminal_Log - ERROR     - log_save.py : 28 line - err: Error: There are no enabled repositories in "/etc/yum.repos.d", "/etc/yum/repos.d", "/etc/distro.repos.d".
+ 
+
+2022/09/23 13:37:45 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install xmltodict  -i https://pypi.org/simple --user
+2022/09/23 13:37:45 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: xmltodict in /usr/local/lib/python3.6/site-packages (0.13.0)
+ 
+
+2022/09/23 13:37:45 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:46 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install wcwidth  -i https://pypi.org/simple --user
+2022/09/23 13:37:46 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/site-packages (0.2.5)
+ 
+
+2022/09/23 13:37:46 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:47 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install pathlib2  -i https://pypi.org/simple --user
+2022/09/23 13:37:47 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: pathlib2 in /usr/local/lib/python3.6/site-packages (2.3.7.post1)
+Requirement already satisfied: six in /usr/lib/python3.6/site-packages (from pathlib2) (1.11.0)
+ 
+
+2022/09/23 13:37:47 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:48 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install artifactory  -i https://pypi.org/simple --user
+2022/09/23 13:37:49 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: artifactory in /usr/local/lib/python3.6/site-packages (0.1.17)
+Requirement already satisfied: pathlib in /usr/local/lib/python3.6/site-packages (from artifactory) (1.0.1)
+Requirement already satisfied: requests in /usr/lib/python3.6/site-packages (from artifactory) (2.20.0)
+Requirement already satisfied: python-dateutil in /usr/lib/python3.6/site-packages (from artifactory) (2.6.1)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3.6/site-packages (from python-dateutil->artifactory) (1.11.0)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /usr/lib/python3.6/site-packages (from requests->artifactory) (3.0.4)
+Requirement already satisfied: idna<2.8,>=2.5 in /usr/lib/python3.6/site-packages (from requests->artifactory) (2.5)
+Requirement already satisfied: urllib3<1.25,>=1.21.1 in /usr/lib/python3.6/site-packages (from requests->artifactory) (1.24.2)
+ 
+
+2022/09/23 13:37:49 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:49 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install anybadge  -i https://pypi.org/simple --user
+2022/09/23 13:37:50 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: anybadge in /usr/local/lib/python3.6/site-packages (1.9.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.6/site-packages (from anybadge) (21.3)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/lib/python3.6/site-packages (from packaging->anybadge) (3.0.9)
+ 
+
+2022/09/23 13:37:50 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:50 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install pyqt5  -i https://pypi.org/simple --user
+2022/09/23 13:37:51 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: pyqt5 in /usr/local/lib64/python3.6/site-packages (5.15.6)
+Requirement already satisfied: PyQt5-sip<13,>=12.8 in /usr/local/lib64/python3.6/site-packages (from pyqt5) (12.9.1)
+Requirement already satisfied: PyQt5-Qt5>=5.15.2 in /usr/local/lib64/python3.6/site-packages (from pyqt5) (5.15.2)
+ 
+
+2022/09/23 13:37:51 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:51 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install prettytable  -i https://pypi.org/simple --user
+2022/09/23 13:37:52 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: prettytable in /usr/local/lib/python3.6/site-packages (2.5.0)
+Requirement already satisfied: importlib-metadata in /usr/local/lib/python3.6/site-packages (from prettytable) (4.8.3)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/site-packages (from prettytable) (0.2.5)
+Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.6/site-packages (from importlib-metadata->prettytable) (3.6.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /usr/local/lib/python3.6/site-packages (from importlib-metadata->prettytable) (4.1.1)
+ 
+
+2022/09/23 13:37:52 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:52 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install bcrypt  -i https://pypi.org/simple --user
+2022/09/23 13:37:53 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: bcrypt in /usr/local/lib64/python3.6/site-packages (4.0.0)
+ 
+
+2022/09/23 13:37:53 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:54 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install setuptools_rust  -i https://pypi.org/simple --user
+2022/09/23 13:37:54 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: setuptools_rust in /usr/local/lib/python3.6/site-packages (1.1.2)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.6/site-packages (from setuptools_rust) (4.1.1)
+Requirement already satisfied: semantic-version<3,>=2.8.2 in /usr/local/lib/python3.6/site-packages (from setuptools_rust) (2.10.0)
+Requirement already satisfied: setuptools>=46.1 in /usr/local/lib/python3.6/site-packages (from setuptools_rust) (59.6.0)
+ 
+
+2022/09/23 13:37:54 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:55 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install cffi  -i https://pypi.org/simple --user
+2022/09/23 13:37:55 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: cffi in /usr/local/lib64/python3.6/site-packages (1.15.1)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.6/site-packages (from cffi) (2.21)
+ 
+
+2022/09/23 13:37:55 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:56 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install cryptography==3.2.1  -i https://pypi.org/simple --user
+2022/09/23 13:37:56 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: cryptography==3.2.1 in ./.local/lib/python3.6/site-packages (3.2.1)
+Requirement already satisfied: cffi!=1.11.3,>=1.8 in /usr/local/lib64/python3.6/site-packages (from cryptography==3.2.1) (1.15.1)
+Requirement already satisfied: six>=1.4.1 in /usr/lib/python3.6/site-packages (from cryptography==3.2.1) (1.11.0)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.6/site-packages (from cffi!=1.11.3,>=1.8->cryptography==3.2.1) (2.21)
+ 
+
+2022/09/23 13:37:56 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:57 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install prettytable  -i https://pypi.org/simple --user
+2022/09/23 13:37:57 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: prettytable in /usr/local/lib/python3.6/site-packages (2.5.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/site-packages (from prettytable) (0.2.5)
+Requirement already satisfied: importlib-metadata in /usr/local/lib/python3.6/site-packages (from prettytable) (4.8.3)
+Requirement already satisfied: typing-extensions>=3.6.4 in /usr/local/lib/python3.6/site-packages (from importlib-metadata->prettytable) (4.1.1)
+Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.6/site-packages (from importlib-metadata->prettytable) (3.6.0)
+ 
+
+2022/09/23 13:37:57 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:58 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install pynacl  -i https://pypi.org/simple --user
+2022/09/23 13:37:58 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: pynacl in /usr/local/lib64/python3.6/site-packages/PyNaCl-1.5.0-py3.6-linux-x86_64.egg (1.5.0)
+Requirement already satisfied: cffi>=1.4.1 in /usr/local/lib64/python3.6/site-packages (from pynacl) (1.15.1)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.6/site-packages (from cffi>=1.4.1->pynacl) (2.21)
+ 
+
+2022/09/23 13:37:58 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:37:59 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install paramiko  -i https://pypi.org/simple --user
+2022/09/23 13:38:00 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: paramiko in /usr/local/lib/python3.6/site-packages (2.11.0)
+Requirement already satisfied: pynacl>=1.0.1 in /usr/local/lib64/python3.6/site-packages/PyNaCl-1.5.0-py3.6-linux-x86_64.egg (from paramiko) (1.5.0)
+Requirement already satisfied: cryptography>=2.5 in ./.local/lib/python3.6/site-packages (from paramiko) (3.2.1)
+Requirement already satisfied: bcrypt>=3.1.3 in /usr/local/lib64/python3.6/site-packages (from paramiko) (4.0.0)
+Requirement already satisfied: six in /usr/lib/python3.6/site-packages (from paramiko) (1.11.0)
+Requirement already satisfied: cffi!=1.11.3,>=1.8 in /usr/local/lib64/python3.6/site-packages (from cryptography>=2.5->paramiko) (1.15.1)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.6/site-packages (from cffi!=1.11.3,>=1.8->cryptography>=2.5->paramiko) (2.21)
+ 
+
+2022/09/23 13:38:00 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:38:00 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911; pip install scp  -i https://pypi.org/simple --user
+2022/09/23 13:38:01 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: scp in /usr/local/lib/python3.6/site-packages (0.14.4)
+Requirement already satisfied: paramiko in /usr/local/lib/python3.6/site-packages (from scp) (2.11.0)
+Requirement already satisfied: cryptography>=2.5 in ./.local/lib/python3.6/site-packages (from paramiko->scp) (3.2.1)
+Requirement already satisfied: six in /usr/lib/python3.6/site-packages (from paramiko->scp) (1.11.0)
+Requirement already satisfied: pynacl>=1.0.1 in /usr/local/lib64/python3.6/site-packages/PyNaCl-1.5.0-py3.6-linux-x86_64.egg (from paramiko->scp) (1.5.0)
+Requirement already satisfied: bcrypt>=3.1.3 in /usr/local/lib64/python3.6/site-packages (from paramiko->scp) (4.0.0)
+Requirement already satisfied: cffi!=1.11.3,>=1.8 in /usr/local/lib64/python3.6/site-packages (from cryptography>=2.5->paramiko->scp) (1.15.1)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.6/site-packages (from cffi!=1.11.3,>=1.8->cryptography>=2.5->paramiko->scp) (2.21)
+ 
+
+2022/09/23 13:38:01 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/23 13:38:01 - Terminal_Log - INFO      - log_save.py : 22 line - run the section auto_env_step
+2022/09/23 13:38:02 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; wget -i /home/BKCPkg/tools/sut_linux_tools.txt --no-check-certificate -P /home/BKCPkg/tools --page-requisites --no-host-directories --cut-dirs=1000 URL
+2022/09/23 13:38:07 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:38:07 - Terminal_Log - ERROR     - log_save.py : 28 line - err: --2022-09-23 04:07:13--  http://url/
+Resolving url (url)... failed: Name or service not known.
+wget: unable to resolve host address ‘url’
+--2022-09-23 04:07:14--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/7.0_xmlcli_windows_linux_esxi_Python2&3_ipclean.zip
+Resolving ubit-artifactory-sh.intel.com (ubit-artifactory-sh.intel.com)... 10.239.39.117
+Connecting to ubit-artifactory-sh.intel.com (ubit-artifactory-sh.intel.com)|10.239.39.117|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 17164820 (16M) [application/zip]
+Saving to: ‘/home/BKCPkg/tools/7.0_xmlcli_windows_linux_esxi_Python2&3_ipclean.zip’
+
+     0K .......... .......... .......... .......... ..........  0%  618K 27s
+    50K .......... .......... .......... .......... ..........  0% 1.19M 20s
+   100K .......... .......... .......... .......... ..........  0% 1.53M 17s
+   150K .......... .......... .......... .......... ..........  1% 2.14M 15s
+   200K .......... .......... .......... .......... ..........  1% 3.05M 13s
+   250K .......... .......... .......... .......... ..........  1% 3.33M 11s
+   300K .......... .......... .......... .......... ..........  2% 4.24M 10s
+   350K .......... .......... .......... .......... ..........  2% 3.88M 9s
+   400K .......... .......... .......... .......... ..........  2% 5.27M 9s
+   450K .......... .......... .......... .......... ..........  2% 6.23M 8s
+   500K .......... .......... .......... .......... ..........  3% 6.40M 8s
+   550K .......... .......... .......... .......... ..........  3% 7.03M 7s
+   600K .......... .......... .......... .......... ..........  3% 6.64M 7s
+   650K .......... .......... .......... .......... ..........  4% 9.26M 6s
+   700K .......... .......... .......... .......... ..........  4% 9.03M 6s
+   750K .......... .......... .......... .......... ..........  4% 9.28M 6s
+   800K .......... .......... .......... .......... ..........  5% 11.7M 5s
+   850K .......... .......... .......... .......... ..........  5% 10.3M 5s
+   900K .......... .......... .......... .......... ..........  5% 12.9M 5s
+   950K .......... .......... .......... .......... ..........  5% 11.0M 5s
+  1000K .......... .......... .......... .......... ..........  6% 12.2M 5s
+  1050K .......... .......... .......... .......... ..........  6% 12.9M 4s
+  1100K .......... .......... .......... .......... ..........  6% 13.1M 4s
+  1150K .......... .......... .......... .......... ..........  7% 13.3M 4s
+  1200K .......... .......... .......... .......... ..........  7% 17.0M 4s
+  1250K .......... .......... .......... .......... ..........  7% 16.0M 4s
+  1300K .......... .......... .......... .......... ..........  8% 17.2M 4s
+  1350K .......... .......... .......... .......... ..........  8% 12.6M 4s
+  1400K .......... .......... .......... .......... ..........  8% 18.9M 4s
+  1450K .......... .......... .......... .......... ..........  8% 20.2M 3s
+  1500K .......... .......... .......... .......... ..........  9% 19.6M 3s
+  1550K .......... .......... .......... .......... ..........  9% 17.4M 3s
+  1600K .......... .......... .......... .......... ..........  9% 17.4M 3s
+  1650K .......... .......... .......... .......... .......... 10% 23.8M 3s
+  1700K .......... .......... .......... .......... .......... 10% 20.5M 3s
+  1750K .......... .......... .......... .......... .......... 10% 20.1M 3s
+  1800K .......... .......... .......... .......... .......... 11% 27.3M 3s
+  1850K .......... .......... .......... .......... .......... 11% 21.9M 3s
+  1900K .......... .......... .......... .......... .......... 11% 33.1M 3s
+  1950K .......... .......... .......... .......... .......... 11% 17.1M 3s
+  2000K .......... .......... .......... .......... .......... 12% 28.3M 3s
+  2050K .......... .......... .......... .......... .......... 12% 27.5M 3s
+  2100K .......... .......... .......... .......... .......... 12% 29.8M 2s
+  2150K .......... .......... .......... .......... .......... 13% 23.3M 2s
+  2200K .......... .......... .......... .......... .......... 13% 28.2M 2s
+  2250K .......... .......... .......... .......... .......... 13% 30.9M 2s
+  2300K .......... .......... .......... .......... .......... 14% 23.2M 2s
+  2350K .......... .......... .......... .......... .......... 14% 32.6M 2s
+  2400K .......... .......... .......... .......... .......... 14% 32.8M 2s
+  2450K .......... .......... .......... .......... .......... 14% 25.1M 2s
+  2500K .......... .......... .......... .......... .......... 15% 27.1M 2s
+  2550K .......... .......... .......... .......... .......... 15% 35.6M 2s
+  2600K .......... .......... .......... .......... .......... 15% 35.5M 2s
+  2650K .......... .......... .......... .......... .......... 16% 28.4M 2s
+  2700K .......... .......... .......... .......... .......... 16% 60.8M 2s
+  2750K .......... .......... .......... .......... .......... 16% 21.1M 2s
+  2800K .......... .......... .......... .......... .......... 17% 27.6M 2s
+  2850K .......... .......... .......... .......... .......... 17% 64.7M 2s
+  2900K .......... .......... .......... .......... .......... 17% 35.5M 2s
+  2950K .......... .......... .......... .......... .......... 17% 43.0M 2s
+  3000K .......... .......... .......... .......... .......... 18% 26.8M 2s
+  3050K .......... .......... .......... .......... .......... 18% 37.4M 2s
+  3100K .......... .......... .......... .......... .......... 18% 51.1M 2s
+  3150K .......... .......... .......... .......... .......... 19% 37.4M 2s
+  3200K .......... .......... .......... .......... .......... 19% 27.5M 2s
+  3250K .......... .......... .......... .......... .......... 19% 18.3M 2s
+  3300K .......... .......... .......... .......... .......... 19%  120M 2s
+  3350K .......... .......... .......... .......... .......... 20% 89.1M 2s
+  3400K .......... .......... .......... .......... .......... 20% 33.9M 2s
+  3450K .......... .......... .......... .......... .......... 20% 41.6M 2s
+  3500K .......... .......... .......... .......... .......... 21% 39.5M 2s
+  3550K .......... .......... .......... .......... .......... 21% 42.7M 1s
+  3600K .......... .......... .......... .......... .......... 21% 80.9M 1s
+  3650K .......... .......... .......... .......... .......... 22% 23.7M 1s
+  3700K .......... .......... .......... .......... .......... 22% 98.6M 1s
+  3750K .......... .......... .......... .......... .......... 22% 31.2M 1s
+  3800K .......... .......... .......... .......... .......... 22%  117M 1s
+  3850K .......... .......... .......... .......... .......... 23% 94.3M 1s
+  3900K .......... .......... .......... .......... .......... 23% 53.4M 1s
+  3950K .......... .......... .......... .......... .......... 23% 29.9M 1s
+  4000K .......... .......... .......... .......... .......... 24% 56.9M 1s
+  4050K .......... .......... .......... .......... .......... 24% 49.3M 1s
+  4100K .......... .......... .......... .......... .......... 24% 39.0M 1s
+  4150K .......... .......... .......... .......... .......... 25% 65.4M 1s
+  4200K .......... .......... .......... .......... .......... 25% 48.8M 1s
+  4250K .......... .......... .......... .......... .......... 25% 67.0M 1s
+  4300K .......... .......... .......... .......... .......... 25% 70.5M 1s
+  4350K .......... .......... .......... .......... .......... 26% 46.5M 1s
+  4400K .......... .......... .......... .......... .......... 26% 67.8M 1s
+  4450K .......... .......... .......... .......... .......... 26% 43.7M 1s
+  4500K .......... .......... .......... .......... .......... 27% 22.4M 1s
+  4550K .......... .......... .......... .......... .......... 27% 81.0M 1s
+  4600K .......... .......... .......... .......... .......... 27% 56.3M 1s
+  4650K .......... .......... .......... .......... .......... 28% 69.3M 1s
+  4700K .......... .......... .......... .......... .......... 28% 64.6M 1s
+  4750K .......... .......... .......... .......... .......... 28% 94.2M 1s
+  4800K .......... .......... .......... .......... .......... 28%  133M 1s
+  4850K .......... .......... .......... .......... .......... 29% 56.2M 1s
+  4900K .......... .......... .......... .......... .......... 29% 59.0M 1s
+  4950K .......... .......... .......... .......... .......... 29% 58.1M 1s
+  5000K .......... .......... .......... .......... .......... 30%  112M 1s
+  5050K .......... .......... .......... .......... .......... 30% 70.6M 1s
+  5100K .......... .......... .......... .......... .......... 30% 19.2M 1s
+  5150K .......... .......... .......... .......... .......... 31% 97.6M 1s
+  5200K .......... .......... .......... .......... .......... 31% 70.7M 1s
+  5250K .......... .......... .......... .......... .......... 31%  105M 1s
+  5300K .......... .......... .......... .......... .......... 31%  138M 1s
+  5350K .......... .......... .......... .......... .......... 32% 36.0M 1s
+  5400K .......... .......... .......... .......... .......... 32% 97.0M 1s
+  5450K .......... .......... .......... .......... .......... 32% 93.8M 1s
+  5500K .......... .......... .......... .......... .......... 33% 30.5M 1s
+  5550K .......... .......... .......... .......... .......... 33% 78.2M 1s
+  5600K .......... .......... .......... .......... .......... 33% 74.0M 1s
+  5650K .......... .......... .......... .......... .......... 34% 70.6M 1s
+  5700K .......... .......... .......... .......... .......... 34%  129M 1s
+  5750K .......... .......... .......... .......... .......... 34% 41.3M 1s
+  5800K .......... .......... .......... .......... .......... 34%  117M 1s
+  5850K .......... .......... .......... .......... .......... 35% 90.8M 1s
+  5900K .......... .......... .......... .......... .......... 35% 68.6M 1s
+  5950K .......... .......... .......... .......... .......... 35% 4.45M 1s
+  6000K .......... .......... .......... .......... .......... 36%  136M 1s
+  6050K .......... .......... .......... .......... .......... 36%  130M 1s
+  6100K .......... .......... .......... .......... .......... 36% 96.4M 1s
+  6150K .......... .......... .......... .......... .......... 36% 97.6M 1s
+  6200K .......... .......... .......... .......... .......... 37%  129M 1s
+  6250K .......... .......... .......... .......... .......... 37%  133M 1s
+  6300K .......... .......... .......... .......... .......... 37% 92.8M 1s
+  6350K .......... .......... .......... .......... .......... 38% 90.5M 1s
+  6400K .......... .......... .......... .......... .......... 38% 94.6M 1s
+  6450K .......... .......... .......... .......... .......... 38%  184M 1s
+  6500K .......... .......... .......... .......... .......... 39% 88.2M 1s
+  6550K .......... .......... .......... .......... .......... 39% 48.7M 1s
+  6600K .......... .......... .......... .......... .......... 39% 43.5M 1s
+  6650K .......... .......... .......... .......... .......... 39% 99.4M 1s
+  6700K .......... .......... .......... .......... .......... 40%  134M 1s
+  6750K .......... .......... .......... .......... .......... 40% 44.8M 1s
+  6800K .......... .......... .......... .......... .......... 40%  132M 1s
+  6850K .......... .......... .......... .......... .......... 41% 61.5M 1s
+  6900K .......... .......... .......... .......... .......... 41% 66.2M 1s
+  6950K .......... .......... .......... .......... .......... 41% 27.6M 1s
+  7000K .......... .......... .......... .......... .......... 42%  114M 1s
+  7050K .......... .......... .......... .......... .......... 42% 43.7M 1s
+  7100K .......... .......... .......... .......... .......... 42% 67.8M 1s
+  7150K .......... .......... .......... .......... .......... 42% 35.1M 1s
+  7200K .......... .......... .......... .......... .......... 43% 42.8M 1s
+  7250K .......... .......... .......... .......... .......... 43% 63.7M 1s
+  7300K .......... .......... .......... .......... .......... 43% 89.1M 1s
+  7350K .......... .......... .......... .......... .......... 44% 5.98M 1s
+  7400K .......... .......... .......... .......... .......... 44%  113M 1s
+  7450K .......... .......... .......... .......... .......... 44% 92.2M 1s
+  7500K .......... .......... .......... .......... .......... 45% 96.0M 1s
+  7550K .......... .......... .......... .......... .......... 45% 94.7M 1s
+  7600K .......... .......... .......... .......... .......... 45%  133M 1s
+  7650K .......... .......... .......... .......... .......... 45% 56.2M 1s
+  7700K .......... .......... .......... .......... .......... 46% 63.4M 1s
+  7750K .......... .......... .......... .......... .......... 46%  107M 1s
+  7800K .......... .......... .......... .......... .......... 46%  132M 1s
+  7850K .......... .......... .......... .......... .......... 47% 44.4M 1s
+  7900K .......... .......... .......... .......... .......... 47%  120M 1s
+  7950K .......... .......... .......... .......... .......... 47% 91.8M 1s
+  8000K .......... .......... .......... .......... .......... 48% 98.3M 1s
+  8050K .......... .......... .......... .......... .......... 48%  126M 1s
+  8100K .......... .......... .......... .......... .......... 48% 51.2M 1s
+  8150K .......... .......... .......... .......... .......... 48%  112M 1s
+  8200K .......... .......... .......... .......... .......... 49% 53.7M 1s
+  8250K .......... .......... .......... .......... .......... 49% 91.7M 1s
+  8300K .......... .......... .......... .......... .......... 49% 46.0M 1s
+  8350K .......... .......... .......... .......... .......... 50% 24.0M 0s
+  8400K .......... .......... .......... .......... .......... 50% 96.6M 0s
+  8450K .......... .......... .......... .......... .......... 50%  133M 0s
+  8500K .......... .......... .......... .......... .......... 51%  132M 0s
+  8550K .......... .......... .......... .......... .......... 51% 89.9M 0s
+  8600K .......... .......... .......... .......... .......... 51% 72.8M 0s
+  8650K .......... .......... .......... .......... .......... 51% 62.9M 0s
+  8700K .......... .......... .......... .......... .......... 52% 68.0M 0s
+  8750K .......... .......... .......... .......... .......... 52% 85.2M 0s
+  8800K .......... .......... .......... .......... .......... 52%  139M 0s
+  8850K .......... .......... .......... .......... .......... 53% 3.59M 0s
+  8900K .......... .......... .......... .......... .......... 53% 67.2M 0s
+  8950K .......... .......... .......... .......... .......... 53%  124M 0s
+  9000K .......... .......... .......... .......... .......... 53% 91.4M 0s
+  9050K .......... .......... .......... .......... .......... 54%  135M 0s
+  9100K .......... .......... .......... .......... .......... 54%  116M 0s
+  9150K .......... .......... .......... .......... .......... 54% 95.9M 0s
+  9200K .......... .......... .......... .......... .......... 55% 93.8M 0s
+  9250K .......... .......... .......... .......... .......... 55%  134M 0s
+  9300K .......... .......... .......... .......... .......... 55% 96.6M 0s
+  9350K .......... .......... .......... .......... .......... 56% 93.7M 0s
+  9400K .......... .......... .......... .......... .......... 56% 37.6M 0s
+  9450K .......... .......... .......... .......... .......... 56%  124M 0s
+  9500K .......... .......... .......... .......... .......... 56% 79.4M 0s
+  9550K .......... .......... .......... .......... .......... 57% 91.8M 0s
+  9600K .......... .......... .......... .......... .......... 57%  129M 0s
+  9650K .......... .......... .......... .......... .......... 57%  100M 0s
+  9700K .......... .......... .......... .......... .......... 58%  139M 0s
+  9750K .......... .......... .......... .......... .......... 58% 41.1M 0s
+  9800K .......... .......... .......... .......... .......... 58% 82.2M 0s
+  9850K .......... .......... .......... .......... .......... 59%  100M 0s
+  9900K .......... .......... .......... .......... .......... 59% 95.2M 0s
+  9950K .......... .......... .......... .......... .......... 59% 93.1M 0s
+ 10000K .......... .......... .......... .......... .......... 59% 56.8M 0s
+ 10050K .......... .......... .......... .......... .......... 60%  127M 0s
+ 10100K .......... .......... .......... .......... .......... 60% 57.8M 0s
+ 10150K .......... .......... .......... .......... .......... 60% 36.5M 0s
+ 10200K .......... .......... .......... .......... .......... 61% 61.5M 0s
+ 10250K .......... .......... .......... .......... .......... 61%  116M 0s
+ 10300K .......... .......... .......... .......... .......... 61% 26.2M 0s
+ 10350K .......... .......... .......... .......... .......... 62%  118M 0s
+ 10400K .......... .......... .......... .......... .......... 62% 9.26M 0s
+ 10450K .......... .......... .......... .......... .......... 62% 10.3M 0s
+ 10500K .......... .......... .......... .......... .......... 62% 94.4M 0s
+ 10550K .......... .......... .......... .......... .......... 63% 30.6M 0s
+ 10600K .......... .......... .......... .......... .......... 63%  143M 0s
+ 10650K .......... .......... .......... .......... .......... 63% 94.6M 0s
+ 10700K .......... .......... .......... .......... .......... 64%  141M 0s
+ 10750K .......... .......... .......... .......... .......... 64% 96.1M 0s
+ 10800K .......... .......... .......... .......... .......... 64% 94.7M 0s
+ 10850K .......... .......... .......... .......... .......... 65% 68.6M 0s
+ 10900K .......... .......... .......... .......... .......... 65% 36.6M 0s
+ 10950K .......... .......... .......... .......... .......... 65% 66.6M 0s
+ 11000K .......... .......... .......... .......... .......... 65% 55.2M 0s
+ 11050K .......... .......... .......... .......... .......... 66%  129M 0s
+ 11100K .......... .......... .......... .......... .......... 66% 67.1M 0s
+ 11150K .......... .......... .......... .......... .......... 66% 91.3M 0s
+ 11200K .......... .......... .......... .......... .......... 67% 62.3M 0s
+ 11250K .......... .......... .......... .......... .......... 67%  107M 0s
+ 11300K .......... .......... .......... .......... .......... 67% 74.0M 0s
+ 11350K .......... .......... .......... .......... .......... 68% 86.6M 0s
+ 11400K .......... .......... .......... .......... .......... 68% 55.4M 0s
+ 11450K .......... .......... .......... .......... .......... 68% 69.0M 0s
+ 11500K .......... .......... .......... .......... .......... 68%  112M 0s
+ 11550K .......... .......... .......... .......... .......... 69% 81.7M 0s
+ 11600K .......... .......... .......... .......... .......... 69%  134M 0s
+ 11650K .......... .......... .......... .......... .......... 69% 40.3M 0s
+ 11700K .......... .......... .......... .......... .......... 70%  107M 0s
+ 11750K .......... .......... .......... .......... .......... 70%  133M 0s
+ 11800K .......... .......... .......... .......... .......... 70% 5.07M 0s
+ 11850K .......... .......... .......... .......... .......... 70%  123M 0s
+ 11900K .......... .......... .......... .......... .......... 71%  129M 0s
+ 11950K .......... .......... .......... .......... .......... 71% 12.6M 0s
+ 12000K .......... .......... .......... .......... .......... 71% 95.3M 0s
+ 12050K .......... .......... .......... .......... .......... 72%  141M 0s
+ 12100K .......... .......... .......... .......... .......... 72% 96.7M 0s
+ 12150K .......... .......... .......... .......... .......... 72% 90.1M 0s
+ 12200K .......... .......... .......... .......... .......... 73%  138M 0s
+ 12250K .......... .......... .......... .......... .......... 73% 95.5M 0s
+ 12300K .......... .......... .......... .......... .......... 73% 56.3M 0s
+ 12350K .......... .......... .......... .......... .......... 73% 32.9M 0s
+ 12400K .......... .......... .......... .......... .......... 74%  120M 0s
+ 12450K .......... .......... .......... .......... .......... 74% 90.4M 0s
+ 12500K .......... .......... .......... .......... .......... 74%  128M 0s
+ 12550K .......... .......... .......... .......... .......... 75%  131M 0s
+ 12600K .......... .......... .......... .......... .......... 75%  103M 0s
+ 12650K .......... .......... .......... .......... .......... 75% 58.3M 0s
+ 12700K .......... .......... .......... .......... .......... 76% 91.2M 0s
+ 12750K .......... .......... .......... .......... .......... 76% 95.7M 0s
+ 12800K .......... .......... .......... .......... .......... 76% 70.4M 0s
+ 12850K .......... .......... .......... .......... .......... 76%  138M 0s
+ 12900K .......... .......... .......... .......... .......... 77%  127M 0s
+ 12950K .......... .......... .......... .......... .......... 77%  101M 0s
+ 13000K .......... .......... .......... .......... .......... 77% 71.5M 0s
+ 13050K .......... .......... .......... .......... .......... 78% 71.2M 0s
+ 13100K .......... .......... .......... .......... .......... 78% 34.6M 0s
+ 13150K .......... .......... .......... .......... .......... 78% 87.7M 0s
+ 13200K .......... .......... .......... .......... .......... 79%  141M 0s
+ 13250K .......... .......... .......... .......... .......... 79% 70.3M 0s
+ 13300K .......... .......... .......... .......... .......... 79%  101M 0s
+ 13350K .......... .......... .......... .......... .......... 79% 68.9M 0s
+ 13400K .......... .......... .......... .......... .......... 80% 4.03M 0s
+ 13450K .......... .......... .......... .......... .......... 80% 57.3M 0s
+ 13500K .......... .......... .......... .......... .......... 80%  123M 0s
+ 13550K .......... .......... .......... .......... .......... 81%  127M 0s
+ 13600K .......... .......... .......... .......... .......... 81% 96.6M 0s
+ 13650K .......... .......... .......... .......... .......... 81%  136M 0s
+ 13700K .......... .......... .......... .......... .......... 82%  101M 0s
+ 13750K .......... .......... .......... .......... .......... 82% 99.2M 0s
+ 13800K .......... .......... .......... .......... .......... 82%  133M 0s
+ 13850K .......... .......... .......... .......... .......... 82% 98.3M 0s
+ 13900K .......... .......... .......... .......... .......... 83%  102M 0s
+ 13950K .......... .......... .......... .......... .......... 83%  128M 0s
+ 14000K .......... .......... .......... .......... .......... 83% 95.7M 0s
+ 14050K .......... .......... .......... .......... .......... 84%  134M 0s
+ 14100K .......... .......... .......... .......... .......... 84%  130M 0s
+ 14150K .......... .......... .......... .......... .......... 84% 97.9M 0s
+ 14200K .......... .......... .......... .......... .......... 85%  127M 0s
+ 14250K .......... .......... .......... .......... .......... 85% 95.2M 0s
+ 14300K .......... .......... .......... .......... .......... 85% 65.8M 0s
+ 14350K .......... .......... .......... .......... .......... 85%  102M 0s
+ 14400K .......... .......... .......... .......... .......... 86% 53.9M 0s
+ 14450K .......... .......... .......... .......... .......... 86% 35.6M 0s
+ 14500K .......... .......... .......... .......... .......... 86%  124M 0s
+ 14550K .......... .......... .......... .......... .......... 87% 56.8M 0s
+ 14600K .......... .......... .......... .......... .......... 87% 32.6M 0s
+ 14650K .......... .......... .......... .......... .......... 87% 22.4M 0s
+ 14700K .......... .......... .......... .......... .......... 87% 35.6M 0s
+ 14750K .......... .......... .......... .......... .......... 88% 27.4M 0s
+ 14800K .......... .......... .......... .......... .......... 88% 54.0M 0s
+ 14850K .......... .......... .......... .......... .......... 88% 5.10M 0s
+ 14900K .......... .......... .......... .......... .......... 89%  129M 0s
+ 14950K .......... .......... .......... .......... .......... 89%  130M 0s
+ 15000K .......... .......... .......... .......... .......... 89% 97.0M 0s
+ 15050K .......... .......... .......... .......... .......... 90%  103M 0s
+ 15100K .......... .......... .......... .......... .......... 90%  130M 0s
+ 15150K .......... .......... .......... .......... .......... 90% 91.9M 0s
+ 15200K .......... .......... .......... .......... .......... 90% 92.1M 0s
+ 15250K .......... .......... .......... .......... .......... 91% 53.0M 0s
+ 15300K .......... .......... .......... .......... .......... 91% 57.7M 0s
+ 15350K .......... .......... .......... .......... .......... 91% 81.9M 0s
+ 15400K .......... .......... .......... .......... .......... 92% 68.7M 0s
+ 15450K .......... .......... .......... .......... .......... 92% 50.2M 0s
+ 15500K .......... .......... .......... .......... .......... 92%  123M 0s
+ 15550K .......... .......... .......... .......... .......... 93% 85.5M 0s
+ 15600K .......... .......... .......... .......... .......... 93% 66.0M 0s
+ 15650K .......... .......... .......... .......... .......... 93%  142M 0s
+ 15700K .......... .......... .......... .......... .......... 93%  101M 0s
+ 15750K .......... .......... .......... .......... .......... 94% 93.8M 0s
+ 15800K .......... .......... .......... .......... .......... 94%  138M 0s
+ 15850K .......... .......... .......... .......... .......... 94%  130M 0s
+ 15900K .......... .......... .......... .......... .......... 95%  103M 0s
+ 15950K .......... .......... .......... .......... .......... 95%  100M 0s
+ 16000K .......... .......... .......... .......... .......... 95%  136M 0s
+ 16050K .......... .......... .......... .......... .......... 96% 96.6M 0s
+ 16100K .......... .......... .......... .......... .......... 96%  137M 0s
+ 16150K .......... .......... .......... .......... .......... 96% 93.8M 0s
+ 16200K .......... .......... .......... .......... .......... 96%  111M 0s
+ 16250K .......... .......... .......... .......... .......... 97%  131M 0s
+ 16300K .......... .......... .......... .......... .......... 97% 3.45M 0s
+ 16350K .......... .......... .......... .......... .......... 97% 35.3M 0s
+ 16400K .......... .......... .......... .......... .......... 98%  194M 0s
+ 16450K .......... .......... .......... .......... .......... 98% 96.0M 0s
+ 16500K .......... .......... .......... .......... .......... 98%  135M 0s
+ 16550K .......... .......... .......... .......... .......... 99% 97.7M 0s
+ 16600K .......... .......... .......... .......... .......... 99% 43.1M 0s
+ 16650K .......... .......... .......... .......... .......... 99%  108M 0s
+ 16700K .......... .......... .......... .......... .......... 99%  103M 0s
+ 16750K .......... ..                                         100%  367M=0.7s
+
+2022-09-23 04:07:15 (24.4 MB/s) - ‘/home/BKCPkg/tools/7.0_xmlcli_windows_linux_esxi_Python2&3_ipclean.zip’ saved [17164820/17164820]
+
+--2022-09-23 04:07:15--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/devchk.zip
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22254 (22K) [application/zip]
+Saving to: ‘/home/BKCPkg/tools/devchk.zip’
+
+     0K .......... .......... .                               100%  145M=0s
+
+2022-09-23 04:07:15 (145 MB/s) - ‘/home/BKCPkg/tools/devchk.zip’ saved [22254/22254]
+
+--2022-09-23 04:07:15--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/ipmitool-1.8.18-14.el8.x86_64.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 403244 (394K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/ipmitool-1.8.18-14.el8.x86_64.rpm’
+
+     0K .......... .......... .......... .......... .......... 12%  117M 0s
+    50K .......... .......... .......... .......... .......... 25% 97.3M 0s
+   100K .......... .......... .......... .......... .......... 38% 44.7M 0s
+   150K .......... .......... .......... .......... .......... 50% 92.5M 0s
+   200K .......... .......... .......... .......... .......... 63% 69.0M 0s
+   250K .......... .......... .......... .......... .......... 76% 28.8M 0s
+   300K .......... .......... .......... .......... .......... 88%  136M 0s
+   350K .......... .......... .......... .......... ...       100%  113M=0.006s
+
+2022-09-23 04:07:15 (67.7 MB/s) - ‘/home/BKCPkg/tools/ipmitool-1.8.18-14.el8.x86_64.rpm’ saved [403244/403244]
+
+--2022-09-23 04:07:15--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/OpenIPMI-2.0.27-1.el8.x86_64.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 129100 (126K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/OpenIPMI-2.0.27-1.el8.x86_64.rpm’
+
+     0K .......... .......... .......... .......... .......... 39% 52.2M 0s
+    50K .......... .......... .......... .......... .......... 79%  111M 0s
+   100K .......... .......... ......                          100%  133M=0.002s
+
+2022-09-23 04:07:15 (78.5 MB/s) - ‘/home/BKCPkg/tools/OpenIPMI-2.0.27-1.el8.x86_64.rpm’ saved [129100/129100]
+
+--2022-09-23 04:07:15--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/Python-3.6.8.tgz
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 23010188 (22M) [application/x-gzip]
+Saving to: ‘/home/BKCPkg/tools/Python-3.6.8.tgz’
+
+     0K .......... .......... .......... .......... ..........  0%  381M 0s
+    50K .......... .......... .......... .......... ..........  0%  163M 0s
+   100K .......... .......... .......... .......... ..........  0% 53.5M 0s
+   150K .......... .......... .......... .......... ..........  0% 93.6M 0s
+   200K .......... .......... .......... .......... ..........  1% 87.9M 0s
+   250K .......... .......... .......... .......... ..........  1% 85.7M 0s
+   300K .......... .......... .......... .......... ..........  1% 51.1M 0s
+   350K .......... .......... .......... .......... ..........  1%  118M 0s
+   400K .......... .......... .......... .......... ..........  2% 64.6M 0s
+   450K .......... .......... .......... .......... ..........  2% 90.5M 0s
+   500K .......... .......... .......... .......... ..........  2% 91.8M 0s
+   550K .......... .......... .......... .......... ..........  2%  134M 0s
+   600K .......... .......... .......... .......... ..........  2% 93.2M 0s
+   650K .......... .......... .......... .......... ..........  3%  133M 0s
+   700K .......... .......... .......... .......... ..........  3%  132M 0s
+   750K .......... .......... .......... .......... ..........  3% 91.8M 0s
+   800K .......... .......... .......... .......... ..........  3%  134M 0s
+   850K .......... .......... .......... .......... ..........  4% 50.2M 0s
+   900K .......... .......... .......... .......... ..........  4%  137M 0s
+   950K .......... .......... .......... .......... ..........  4% 46.8M 0s
+  1000K .......... .......... .......... .......... ..........  4% 94.0M 0s
+  1050K .......... .......... .......... .......... ..........  4%  133M 0s
+  1100K .......... .......... .......... .......... ..........  5% 94.5M 0s
+  1150K .......... .......... .......... .......... ..........  5% 67.1M 0s
+  1200K .......... .......... .......... .......... ..........  5%  121M 0s
+  1250K .......... .......... .......... .......... ..........  5%  133M 0s
+  1300K .......... .......... .......... .......... ..........  6% 92.2M 0s
+  1350K .......... .......... .......... .......... ..........  6%  130M 0s
+  1400K .......... .......... .......... .......... ..........  6% 94.1M 0s
+  1450K .......... .......... .......... .......... ..........  6%  131M 0s
+  1500K .......... .......... .......... .......... ..........  6%  130M 0s
+  1550K .......... .......... .......... .......... ..........  7% 93.9M 0s
+  1600K .......... .......... .......... .......... ..........  7% 93.1M 0s
+  1650K .......... .......... .......... .......... ..........  7%  128M 0s
+  1700K .......... .......... .......... .......... ..........  7% 93.7M 0s
+  1750K .......... .......... .......... .......... ..........  8% 68.8M 0s
+  1800K .......... .......... .......... .......... ..........  8%  134M 0s
+  1850K .......... .......... .......... .......... ..........  8% 90.8M 0s
+  1900K .......... .......... .......... .......... ..........  8% 68.0M 0s
+  1950K .......... .......... .......... .......... ..........  8%  119M 0s
+  2000K .......... .......... .......... .......... ..........  9% 66.4M 0s
+  2050K .......... .......... .......... .......... ..........  9% 88.0M 0s
+  2100K .......... .......... .......... .......... ..........  9%  136M 0s
+  2150K .......... .......... .......... .......... ..........  9% 92.5M 0s
+  2200K .......... .......... .......... .......... .......... 10%  132M 0s
+  2250K .......... .......... .......... .......... .......... 10%  130M 0s
+  2300K .......... .......... .......... .......... .......... 10% 69.8M 0s
+  2350K .......... .......... .......... .......... .......... 10% 93.5M 0s
+  2400K .......... .......... .......... .......... .......... 10%  126M 0s
+  2450K .......... .......... .......... .......... .......... 11% 95.2M 0s
+  2500K .......... .......... .......... .......... .......... 11% 90.3M 0s
+  2550K .......... .......... .......... .......... .......... 11% 43.0M 0s
+  2600K .......... .......... .......... .......... .......... 11%  123M 0s
+  2650K .......... .......... .......... .......... .......... 12% 80.6M 0s
+  2700K .......... .......... .......... .......... .......... 12% 26.6M 0s
+  2750K .......... .......... .......... .......... .......... 12%  133M 0s
+  2800K .......... .......... .......... .......... .......... 12% 93.2M 0s
+  2850K .......... .......... .......... .......... .......... 12% 66.8M 0s
+  2900K .......... .......... .......... .......... .......... 13% 69.6M 0s
+  2950K .......... .......... .......... .......... .......... 13% 54.3M 0s
+  3000K .......... .......... .......... .......... .......... 13% 89.6M 0s
+  3050K .......... .......... .......... .......... .......... 13% 2.06M 0s
+  3100K .......... .......... .......... .......... .......... 14% 99.0M 0s
+  3150K .......... .......... .......... .......... .......... 14% 93.8M 0s
+  3200K .......... .......... .......... .......... .......... 14% 86.2M 0s
+  3250K .......... .......... .......... .......... .......... 14% 58.8M 0s
+  3300K .......... .......... .......... .......... .......... 14% 32.8M 0s
+  3350K .......... .......... .......... .......... .......... 15% 41.8M 0s
+  3400K .......... .......... .......... .......... .......... 15% 46.4M 0s
+  3450K .......... .......... .......... .......... .......... 15%  109M 0s
+  3500K .......... .......... .......... .......... .......... 15%  100M 0s
+  3550K .......... .......... .......... .......... .......... 16% 34.3M 0s
+  3600K .......... .......... .......... .......... .......... 16%  120M 0s
+  3650K .......... .......... .......... .......... .......... 16% 98.0M 0s
+  3700K .......... .......... .......... .......... .......... 16% 59.7M 0s
+  3750K .......... .......... .......... .......... .......... 16% 90.0M 0s
+  3800K .......... .......... .......... .......... .......... 17%  131M 0s
+  3850K .......... .......... .......... .......... .......... 17% 70.9M 0s
+  3900K .......... .......... .......... .......... .......... 17% 70.9M 0s
+  3950K .......... .......... .......... .......... .......... 17% 47.0M 0s
+  4000K .......... .......... .......... .......... .......... 18% 56.5M 0s
+  4050K .......... .......... .......... .......... .......... 18%  117M 0s
+  4100K .......... .......... .......... .......... .......... 18% 55.5M 0s
+  4150K .......... .......... .......... .......... .......... 18% 79.6M 0s
+  4200K .......... .......... .......... .......... .......... 18% 97.5M 0s
+  4250K .......... .......... .......... .......... .......... 19%  135M 0s
+  4300K .......... .......... .......... .......... .......... 19% 94.8M 0s
+  4350K .......... .......... .......... .......... .......... 19% 30.4M 0s
+  4400K .......... .......... .......... .......... .......... 19%  127M 0s
+  4450K .......... .......... .......... .......... .......... 20%  134M 0s
+  4500K .......... .......... .......... .......... .......... 20%  102M 0s
+  4550K .......... .......... .......... .......... .......... 20%  126M 0s
+  4600K .......... .......... .......... .......... .......... 20% 96.8M 0s
+  4650K .......... .......... .......... .......... .......... 20%  137M 0s
+  4700K .......... .......... .......... .......... .......... 21% 69.1M 0s
+  4750K .......... .......... .......... .......... .......... 21% 83.1M 0s
+  4800K .......... .......... .......... .......... .......... 21% 94.1M 0s
+  4850K .......... .......... .......... .......... .......... 21% 97.0M 0s
+  4900K .......... .......... .......... .......... .......... 22% 55.1M 0s
+  4950K .......... .......... .......... .......... .......... 22%  103M 0s
+  5000K .......... .......... .......... .......... .......... 22% 47.0M 0s
+  5050K .......... .......... .......... .......... .......... 22%  128M 0s
+  5100K .......... .......... .......... .......... .......... 22% 90.1M 0s
+  5150K .......... .......... .......... .......... .......... 23% 76.3M 0s
+  5200K .......... .......... .......... .......... .......... 23%  139M 0s
+  5250K .......... .......... .......... .......... .......... 23% 54.4M 0s
+  5300K .......... .......... .......... .......... .......... 23% 49.5M 0s
+  5350K .......... .......... .......... .......... .......... 24% 94.1M 0s
+  5400K .......... .......... .......... .......... .......... 24% 69.5M 0s
+  5450K .......... .......... .......... .......... .......... 24% 85.7M 0s
+  5500K .......... .......... .......... .......... .......... 24%  128M 0s
+  5550K .......... .......... .......... .......... .......... 24% 80.6M 0s
+  5600K .......... .......... .......... .......... .......... 25%  140M 0s
+  5650K .......... .......... .......... .......... .......... 25%  101M 0s
+  5700K .......... .......... .......... .......... .......... 25% 71.1M 0s
+  5750K .......... .......... .......... .......... .......... 25% 51.4M 0s
+  5800K .......... .......... .......... .......... .......... 26% 34.1M 0s
+  5850K .......... .......... .......... .......... .......... 26%  136M 0s
+  5900K .......... .......... .......... .......... .......... 26% 93.3M 0s
+  5950K .......... .......... .......... .......... .......... 26%  129M 0s
+  6000K .......... .......... .......... .......... .......... 26% 2.16M 0s
+  6050K .......... .......... .......... .......... .......... 27% 32.8M 0s
+  6100K .......... .......... .......... .......... .......... 27%  141M 0s
+  6150K .......... .......... .......... .......... .......... 27% 93.5M 0s
+  6200K .......... .......... .......... .......... .......... 27% 70.4M 0s
+  6250K .......... .......... .......... .......... .......... 28%  136M 0s
+  6300K .......... .......... .......... .......... .......... 28% 56.5M 0s
+  6350K .......... .......... .......... .......... .......... 28%  136M 0s
+  6400K .......... .......... .......... .......... .......... 28% 72.2M 0s
+  6450K .......... .......... .......... .......... .......... 28%  138M 0s
+  6500K .......... .......... .......... .......... .......... 29% 34.6M 0s
+  6550K .......... .......... .......... .......... .......... 29%  120M 0s
+  6600K .......... .......... .......... .......... .......... 29% 66.4M 0s
+  6650K .......... .......... .......... .......... .......... 29% 92.9M 0s
+  6700K .......... .......... .......... .......... .......... 30% 54.8M 0s
+  6750K .......... .......... .......... .......... .......... 30%  125M 0s
+  6800K .......... .......... .......... .......... .......... 30% 94.1M 0s
+  6850K .......... .......... .......... .......... .......... 30% 44.4M 0s
+  6900K .......... .......... .......... .......... .......... 30%  132M 0s
+  6950K .......... .......... .......... .......... .......... 31%  108M 0s
+  7000K .......... .......... .......... .......... .......... 31% 92.1M 0s
+  7050K .......... .......... .......... .......... .......... 31% 71.8M 0s
+  7100K .......... .......... .......... .......... .......... 31%  128M 0s
+  7150K .......... .......... .......... .......... .......... 32% 45.8M 0s
+  7200K .......... .......... .......... .......... .......... 32% 91.1M 0s
+  7250K .......... .......... .......... .......... .......... 32% 87.5M 0s
+  7300K .......... .......... .......... .......... .......... 32%  137M 0s
+  7350K .......... .......... .......... .......... .......... 32%  102M 0s
+  7400K .......... .......... .......... .......... .......... 33% 71.5M 0s
+  7450K .......... .......... .......... .......... .......... 33% 21.5M 0s
+  7500K .......... .......... .......... .......... .......... 33%  103M 0s
+  7550K .......... .......... .......... .......... .......... 33%  110M 0s
+  7600K .......... .......... .......... .......... .......... 34%  111M 0s
+  7650K .......... .......... .......... .......... .......... 34% 98.6M 0s
+  7700K .......... .......... .......... .......... .......... 34%  134M 0s
+  7750K .......... .......... .......... .......... .......... 34% 73.2M 0s
+  7800K .......... .......... .......... .......... .......... 34% 32.9M 0s
+  7850K .......... .......... .......... .......... .......... 35% 35.0M 0s
+  7900K .......... .......... .......... .......... .......... 35% 32.0M 0s
+  7950K .......... .......... .......... .......... .......... 35% 42.6M 0s
+  8000K .......... .......... .......... .......... .......... 35% 36.5M 0s
+  8050K .......... .......... .......... .......... .......... 36% 94.6M 0s
+  8100K .......... .......... .......... .......... .......... 36% 28.4M 0s
+  8150K .......... .......... .......... .......... .......... 36% 97.0M 0s
+  8200K .......... .......... .......... .......... .......... 36%  139M 0s
+  8250K .......... .......... .......... .......... .......... 36%  111M 0s
+  8300K .......... .......... .......... .......... .......... 37%  101M 0s
+  8350K .......... .......... .......... .......... .......... 37% 44.7M 0s
+  8400K .......... .......... .......... .......... .......... 37% 63.8M 0s
+  8450K .......... .......... .......... .......... .......... 37% 72.6M 0s
+  8500K .......... .......... .......... .......... .......... 38% 84.2M 0s
+  8550K .......... .......... .......... .......... .......... 38% 68.9M 0s
+  8600K .......... .......... .......... .......... .......... 38% 90.7M 0s
+  8650K .......... .......... .......... .......... .......... 38% 91.8M 0s
+  8700K .......... .......... .......... .......... .......... 38% 69.3M 0s
+  8750K .......... .......... .......... .......... .......... 39% 90.8M 0s
+  8800K .......... .......... .......... .......... .......... 39% 92.3M 0s
+  8850K .......... .......... .......... .......... .......... 39% 37.5M 0s
+  8900K .......... .......... .......... .......... .......... 39% 2.59M 0s
+  8950K .......... .......... .......... .......... .......... 40%  140M 0s
+  9000K .......... .......... .......... .......... .......... 40% 68.4M 0s
+  9050K .......... .......... .......... .......... .......... 40% 60.4M 0s
+  9100K .......... .......... .......... .......... .......... 40% 90.1M 0s
+  9150K .......... .......... .......... .......... .......... 40%  130M 0s
+  9200K .......... .......... .......... .......... .......... 41% 98.5M 0s
+  9250K .......... .......... .......... .......... .......... 41%  132M 0s
+  9300K .......... .......... .......... .......... .......... 41% 59.7M 0s
+  9350K .......... .......... .......... .......... .......... 41% 95.7M 0s
+  9400K .......... .......... .......... .......... .......... 42%  102M 0s
+  9450K .......... .......... .......... .......... .......... 42% 64.4M 0s
+  9500K .......... .......... .......... .......... .......... 42% 38.7M 0s
+  9550K .......... .......... .......... .......... .......... 42%  102M 0s
+  9600K .......... .......... .......... .......... .......... 42% 63.2M 0s
+  9650K .......... .......... .......... .......... .......... 43%  133M 0s
+  9700K .......... .......... .......... .......... .......... 43% 66.2M 0s
+  9750K .......... .......... .......... .......... .......... 43% 56.3M 0s
+  9800K .......... .......... .......... .......... .......... 43% 37.7M 0s
+  9850K .......... .......... .......... .......... .......... 44%  105M 0s
+  9900K .......... .......... .......... .......... .......... 44% 99.7M 0s
+  9950K .......... .......... .......... .......... .......... 44% 40.9M 0s
+ 10000K .......... .......... .......... .......... .......... 44%  136M 0s
+ 10050K .......... .......... .......... .......... .......... 44% 96.3M 0s
+ 10100K .......... .......... .......... .......... .......... 45% 65.7M 0s
+ 10150K .......... .......... .......... .......... .......... 45% 42.1M 0s
+ 10200K .......... .......... .......... .......... .......... 45%  133M 0s
+ 10250K .......... .......... .......... .......... .......... 45%  103M 0s
+ 10300K .......... .......... .......... .......... .......... 46% 60.6M 0s
+ 10350K .......... .......... .......... .......... .......... 46% 69.4M 0s
+ 10400K .......... .......... .......... .......... .......... 46% 63.6M 0s
+ 10450K .......... .......... .......... .......... .......... 46%  117M 0s
+ 10500K .......... .......... .......... .......... .......... 46% 98.6M 0s
+ 10550K .......... .......... .......... .......... .......... 47%  139M 0s
+ 10600K .......... .......... .......... .......... .......... 47% 30.8M 0s
+ 10650K .......... .......... .......... .......... .......... 47%  124M 0s
+ 10700K .......... .......... .......... .......... .......... 47% 93.5M 0s
+ 10750K .......... .......... .......... .......... .......... 48%  143M 0s
+ 10800K .......... .......... .......... .......... .......... 48% 99.9M 0s
+ 10850K .......... .......... .......... .......... .......... 48% 95.3M 0s
+ 10900K .......... .......... .......... .......... .......... 48% 52.3M 0s
+ 10950K .......... .......... .......... .......... .......... 48%  103M 0s
+ 11000K .......... .......... .......... .......... .......... 49% 52.0M 0s
+ 11050K .......... .......... .......... .......... .......... 49%  133M 0s
+ 11100K .......... .......... .......... .......... .......... 49% 38.2M 0s
+ 11150K .......... .......... .......... .......... .......... 49%  108M 0s
+ 11200K .......... .......... .......... .......... .......... 50%  101M 0s
+ 11250K .......... .......... .......... .......... .......... 50% 91.7M 0s
+ 11300K .......... .......... .......... .......... .......... 50% 29.6M 0s
+ 11350K .......... .......... .......... .......... .......... 50%  137M 0s
+ 11400K .......... .......... .......... .......... .......... 50%  101M 0s
+ 11450K .......... .......... .......... .......... .......... 51% 92.8M 0s
+ 11500K .......... .......... .......... .......... .......... 51% 59.9M 0s
+ 11550K .......... .......... .......... .......... .......... 51% 67.2M 0s
+ 11600K .......... .......... .......... .......... .......... 51%  113M 0s
+ 11650K .......... .......... .......... .......... .......... 52% 97.0M 0s
+ 11700K .......... .......... .......... .......... .......... 52% 85.3M 0s
+ 11750K .......... .......... .......... .......... .......... 52% 88.4M 0s
+ 11800K .......... .......... .......... .......... .......... 52% 2.23M 0s
+ 11850K .......... .......... .......... .......... .......... 52%  136M 0s
+ 11900K .......... .......... .......... .......... .......... 53% 34.4M 0s
+ 11950K .......... .......... .......... .......... .......... 53%  131M 0s
+ 12000K .......... .......... .......... .......... .......... 53%  128M 0s
+ 12050K .......... .......... .......... .......... .......... 53% 95.9M 0s
+ 12100K .......... .......... .......... .......... .......... 54% 44.4M 0s
+ 12150K .......... .......... .......... .......... .......... 54%  110M 0s
+ 12200K .......... .......... .......... .......... .......... 54%  130M 0s
+ 12250K .......... .......... .......... .......... .......... 54% 62.1M 0s
+ 12300K .......... .......... .......... .......... .......... 54% 96.5M 0s
+ 12350K .......... .......... .......... .......... .......... 55% 65.5M 0s
+ 12400K .......... .......... .......... .......... .......... 55% 69.8M 0s
+ 12450K .......... .......... .......... .......... .......... 55% 66.7M 0s
+ 12500K .......... .......... .......... .......... .......... 55%  111M 0s
+ 12550K .......... .......... .......... .......... .......... 56%  135M 0s
+ 12600K .......... .......... .......... .......... .......... 56% 70.7M 0s
+ 12650K .......... .......... .......... .......... .......... 56% 69.8M 0s
+ 12700K .......... .......... .......... .......... .......... 56% 70.6M 0s
+ 12750K .......... .......... .......... .......... .......... 56% 69.9M 0s
+ 12800K .......... .......... .......... .......... .......... 57%  143M 0s
+ 12850K .......... .......... .......... .......... .......... 57% 71.4M 0s
+ 12900K .......... .......... .......... .......... .......... 57% 84.1M 0s
+ 12950K .......... .......... .......... .......... .......... 57% 50.5M 0s
+ 13000K .......... .......... .......... .......... .......... 58% 93.4M 0s
+ 13050K .......... .......... .......... .......... .......... 58% 70.5M 0s
+ 13100K .......... .......... .......... .......... .......... 58% 93.8M 0s
+ 13150K .......... .......... .......... .......... .......... 58%  140M 0s
+ 13200K .......... .......... .......... .......... .......... 58% 53.9M 0s
+ 13250K .......... .......... .......... .......... .......... 59%  114M 0s
+ 13300K .......... .......... .......... .......... .......... 59% 14.2M 0s
+ 13350K .......... .......... .......... .......... .......... 59% 43.7M 0s
+ 13400K .......... .......... .......... .......... .......... 59% 92.2M 0s
+ 13450K .......... .......... .......... .......... .......... 60% 91.6M 0s
+ 13500K .......... .......... .......... .......... .......... 60% 60.5M 0s
+ 13550K .......... .......... .......... .......... .......... 60% 37.1M 0s
+ 13600K .......... .......... .......... .......... .......... 60% 42.5M 0s
+ 13650K .......... .......... .......... .......... .......... 60% 60.6M 0s
+ 13700K .......... .......... .......... .......... .......... 61% 89.2M 0s
+ 13750K .......... .......... .......... .......... .......... 61% 95.0M 0s
+ 13800K .......... .......... .......... .......... .......... 61% 68.3M 0s
+ 13850K .......... .......... .......... .......... .......... 61% 68.3M 0s
+ 13900K .......... .......... .......... .......... .......... 62% 70.7M 0s
+ 13950K .......... .......... .......... .......... .......... 62% 64.0M 0s
+ 14000K .......... .......... .......... .......... .......... 62% 85.5M 0s
+ 14050K .......... .......... .......... .......... .......... 62% 94.2M 0s
+ 14100K .......... .......... .......... .......... .......... 62% 39.1M 0s
+ 14150K .......... .......... .......... .......... .......... 63% 55.1M 0s
+ 14200K .......... .......... .......... .......... .......... 63% 93.6M 0s
+ 14250K .......... .......... .......... .......... .......... 63%  128M 0s
+ 14300K .......... .......... .......... .......... .......... 63% 93.1M 0s
+ 14350K .......... .......... .......... .......... .......... 64%  138M 0s
+ 14400K .......... .......... .......... .......... .......... 64% 94.9M 0s
+ 14450K .......... .......... .......... .......... .......... 64%  139M 0s
+ 14500K .......... .......... .......... .......... .......... 64% 58.6M 0s
+ 14550K .......... .......... .......... .......... .......... 64% 93.7M 0s
+ 14600K .......... .......... .......... .......... .......... 65% 88.5M 0s
+ 14650K .......... .......... .......... .......... .......... 65% 69.5M 0s
+ 14700K .......... .......... .......... .......... .......... 65% 54.5M 0s
+ 14750K .......... .......... .......... .......... .......... 65%  117M 0s
+ 14800K .......... .......... .......... .......... .......... 66% 71.0M 0s
+ 14850K .......... .......... .......... .......... .......... 66% 2.55M 0s
+ 14900K .......... .......... .......... .......... .......... 66% 44.5M 0s
+ 14950K .......... .......... .......... .......... .......... 66%  147M 0s
+ 15000K .......... .......... .......... .......... .......... 66% 32.2M 0s
+ 15050K .......... .......... .......... .......... .......... 67% 50.9M 0s
+ 15100K .......... .......... .......... .......... .......... 67% 90.2M 0s
+ 15150K .......... .......... .......... .......... .......... 67% 31.6M 0s
+ 15200K .......... .......... .......... .......... .......... 67% 88.3M 0s
+ 15250K .......... .......... .......... .......... .......... 68% 88.1M 0s
+ 15300K .......... .......... .......... .......... .......... 68% 98.1M 0s
+ 15350K .......... .......... .......... .......... .......... 68% 96.5M 0s
+ 15400K .......... .......... .......... .......... .......... 68%  129M 0s
+ 15450K .......... .......... .......... .......... .......... 68%  137M 0s
+ 15500K .......... .......... .......... .......... .......... 69% 94.9M 0s
+ 15550K .......... .......... .......... .......... .......... 69% 43.6M 0s
+ 15600K .......... .......... .......... .......... .......... 69% 37.2M 0s
+ 15650K .......... .......... .......... .......... .......... 69% 37.4M 0s
+ 15700K .......... .......... .......... .......... .......... 70% 41.0M 0s
+ 15750K .......... .......... .......... .......... .......... 70% 99.7M 0s
+ 15800K .......... .......... .......... .......... .......... 70% 99.7M 0s
+ 15850K .......... .......... .......... .......... .......... 70%  139M 0s
+ 15900K .......... .......... .......... .......... .......... 70% 58.5M 0s
+ 15950K .......... .......... .......... .......... .......... 71%  133M 0s
+ 16000K .......... .......... .......... .......... .......... 71% 64.9M 0s
+ 16050K .......... .......... .......... .......... .......... 71% 92.3M 0s
+ 16100K .......... .......... .......... .......... .......... 71%  125M 0s
+ 16150K .......... .......... .......... .......... .......... 72% 68.9M 0s
+ 16200K .......... .......... .......... .......... .......... 72%  137M 0s
+ 16250K .......... .......... .......... .......... .......... 72% 95.6M 0s
+ 16300K .......... .......... .......... .......... .......... 72% 72.4M 0s
+ 16350K .......... .......... .......... .......... .......... 72% 17.0M 0s
+ 16400K .......... .......... .......... .......... .......... 73% 98.8M 0s
+ 16450K .......... .......... .......... .......... .......... 73% 89.1M 0s
+ 16500K .......... .......... .......... .......... .......... 73% 74.3M 0s
+ 16550K .......... .......... .......... .......... .......... 73%  129M 0s
+ 16600K .......... .......... .......... .......... .......... 74% 74.0M 0s
+ 16650K .......... .......... .......... .......... .......... 74% 93.2M 0s
+ 16700K .......... .......... .......... .......... .......... 74% 59.1M 0s
+ 16750K .......... .......... .......... .......... .......... 74%  125M 0s
+ 16800K .......... .......... .......... .......... .......... 74% 92.9M 0s
+ 16850K .......... .......... .......... .......... .......... 75% 46.5M 0s
+ 16900K .......... .......... .......... .......... .......... 75% 69.3M 0s
+ 16950K .......... .......... .......... .......... .......... 75% 92.5M 0s
+ 17000K .......... .......... .......... .......... .......... 75%  103M 0s
+ 17050K .......... .......... .......... .......... .......... 76% 91.6M 0s
+ 17100K .......... .......... .......... .......... .......... 76% 31.1M 0s
+ 17150K .......... .......... .......... .......... .......... 76% 99.6M 0s
+ 17200K .......... .......... .......... .......... .......... 76% 88.7M 0s
+ 17250K .......... .......... .......... .......... .......... 76% 48.4M 0s
+ 17300K .......... .......... .......... .......... .......... 77%  122M 0s
+ 17350K .......... .......... .......... .......... .......... 77% 81.0M 0s
+ 17400K .......... .......... .......... .......... .......... 77% 48.4M 0s
+ 17450K .......... .......... .......... .......... .......... 77% 65.4M 0s
+ 17500K .......... .......... .......... .......... .......... 78% 64.3M 0s
+ 17550K .......... .......... .......... .......... .......... 78% 86.4M 0s
+ 17600K .......... .......... .......... .......... .......... 78% 38.9M 0s
+ 17650K .......... .......... .......... .......... .......... 78%  138M 0s
+ 17700K .......... .......... .......... .......... .......... 78% 37.8M 0s
+ 17750K .......... .......... .......... .......... .......... 79% 33.2M 0s
+ 17800K .......... .......... .......... .......... .......... 79% 96.5M 0s
+ 17850K .......... .......... .......... .......... .......... 79% 2.34M 0s
+ 17900K .......... .......... .......... .......... .......... 79% 46.6M 0s
+ 17950K .......... .......... .......... .......... .......... 80%  100M 0s
+ 18000K .......... .......... .......... .......... .......... 80%  133M 0s
+ 18050K .......... .......... .......... .......... .......... 80%  130M 0s
+ 18100K .......... .......... .......... .......... .......... 80% 94.0M 0s
+ 18150K .......... .......... .......... .......... .......... 80% 99.4M 0s
+ 18200K .......... .......... .......... .......... .......... 81%  139M 0s
+ 18250K .......... .......... .......... .......... .......... 81% 92.8M 0s
+ 18300K .......... .......... .......... .......... .......... 81% 93.4M 0s
+ 18350K .......... .......... .......... .......... .......... 81% 71.0M 0s
+ 18400K .......... .......... .......... .......... .......... 82% 68.2M 0s
+ 18450K .......... .......... .......... .......... .......... 82%  129M 0s
+ 18500K .......... .......... .......... .......... .......... 82% 48.8M 0s
+ 18550K .......... .......... .......... .......... .......... 82%  132M 0s
+ 18600K .......... .......... .......... .......... .......... 82% 94.4M 0s
+ 18650K .......... .......... .......... .......... .......... 83% 93.8M 0s
+ 18700K .......... .......... .......... .......... .......... 83% 51.5M 0s
+ 18750K .......... .......... .......... .......... .......... 83% 77.8M 0s
+ 18800K .......... .......... .......... .......... .......... 83% 42.6M 0s
+ 18850K .......... .......... .......... .......... .......... 84%  101M 0s
+ 18900K .......... .......... .......... .......... .......... 84% 99.0M 0s
+ 18950K .......... .......... .......... .......... .......... 84% 74.7M 0s
+ 19000K .......... .......... .......... .......... .......... 84% 83.1M 0s
+ 19050K .......... .......... .......... .......... .......... 84%  137M 0s
+ 19100K .......... .......... .......... .......... .......... 85% 73.5M 0s
+ 19150K .......... .......... .......... .......... .......... 85% 44.9M 0s
+ 19200K .......... .......... .......... .......... .......... 85%  119M 0s
+ 19250K .......... .......... .......... .......... .......... 85%  135M 0s
+ 19300K .......... .......... .......... .......... .......... 86%  126M 0s
+ 19350K .......... .......... .......... .......... .......... 86% 29.2M 0s
+ 19400K .......... .......... .......... .......... .......... 86%  116M 0s
+ 19450K .......... .......... .......... .......... .......... 86% 73.0M 0s
+ 19500K .......... .......... .......... .......... .......... 87% 83.5M 0s
+ 19550K .......... .......... .......... .......... .......... 87%  132M 0s
+ 19600K .......... .......... .......... .......... .......... 87% 97.8M 0s
+ 19650K .......... .......... .......... .......... .......... 87% 92.4M 0s
+ 19700K .......... .......... .......... .......... .......... 87%  117M 0s
+ 19750K .......... .......... .......... .......... .......... 88% 66.1M 0s
+ 19800K .......... .......... .......... .......... .......... 88% 85.7M 0s
+ 19850K .......... .......... .......... .......... .......... 88% 97.3M 0s
+ 19900K .......... .......... .......... .......... .......... 88% 92.8M 0s
+ 19950K .......... .......... .......... .......... .......... 89%  134M 0s
+ 20000K .......... .......... .......... .......... .......... 89% 93.0M 0s
+ 20050K .......... .......... .......... .......... .......... 89%  128M 0s
+ 20100K .......... .......... .......... .......... .......... 89% 39.6M 0s
+ 20150K .......... .......... .......... .......... .......... 89%  134M 0s
+ 20200K .......... .......... .......... .......... .......... 90% 97.2M 0s
+ 20250K .......... .......... .......... .......... .......... 90%  132M 0s
+ 20300K .......... .......... .......... .......... .......... 90% 84.7M 0s
+ 20350K .......... .......... .......... .......... .......... 90% 40.3M 0s
+ 20400K .......... .......... .......... .......... .......... 91%  121M 0s
+ 20450K .......... .......... .......... .......... .......... 91%  131M 0s
+ 20500K .......... .......... .......... .......... .......... 91% 97.4M 0s
+ 20550K .......... .......... .......... .......... .......... 91% 72.2M 0s
+ 20600K .......... .......... .......... .......... .......... 91% 30.8M 0s
+ 20650K .......... .......... .......... .......... .......... 92% 38.6M 0s
+ 20700K .......... .......... .......... .......... .......... 92% 41.1M 0s
+ 20750K .......... .......... .......... .......... .......... 92% 44.1M 0s
+ 20800K .......... .......... .......... .......... .......... 92%  122M 0s
+ 20850K .......... .......... .......... .......... .......... 93% 2.17M 0s
+ 20900K .......... .......... .......... .......... .......... 93%  124M 0s
+ 20950K .......... .......... .......... .......... .......... 93% 97.1M 0s
+ 21000K .......... .......... .......... .......... .......... 93%  139M 0s
+ 21050K .......... .......... .......... .......... .......... 93% 98.0M 0s
+ 21100K .......... .......... .......... .......... .......... 94% 27.4M 0s
+ 21150K .......... .......... .......... .......... .......... 94% 46.2M 0s
+ 21200K .......... .......... .......... .......... .......... 94%  111M 0s
+ 21250K .......... .......... .......... .......... .......... 94%  167M 0s
+ 21300K .......... .......... .......... .......... .......... 95% 88.3M 0s
+ 21350K .......... .......... .......... .......... .......... 95%  107M 0s
+ 21400K .......... .......... .......... .......... .......... 95%  136M 0s
+ 21450K .......... .......... .......... .......... .......... 95% 98.8M 0s
+ 21500K .......... .......... .......... .......... .......... 95%  122M 0s
+ 21550K .......... .......... .......... .......... .......... 96% 97.8M 0s
+ 21600K .......... .......... .......... .......... .......... 96%  134M 0s
+ 21650K .......... .......... .......... .......... .......... 96%  104M 0s
+ 21700K .......... .......... .......... .......... .......... 96%  129M 0s
+ 21750K .......... .......... .......... .......... .......... 97%  101M 0s
+ 21800K .......... .......... .......... .......... .......... 97% 74.0M 0s
+ 21850K .......... .......... .......... .......... .......... 97% 85.4M 0s
+ 21900K .......... .......... .......... .......... .......... 97% 74.0M 0s
+ 21950K .......... .......... .......... .......... .......... 97% 94.4M 0s
+ 22000K .......... .......... .......... .......... .......... 98% 65.8M 0s
+ 22050K .......... .......... .......... .......... .......... 98%  141M 0s
+ 22100K .......... .......... .......... .......... .......... 98% 92.9M 0s
+ 22150K .......... .......... .......... .......... .......... 98% 94.8M 0s
+ 22200K .......... .......... .......... .......... .......... 99%  101M 0s
+ 22250K .......... .......... .......... .......... .......... 99% 91.1M 0s
+ 22300K .......... .......... .......... .......... .......... 99% 71.5M 0s
+ 22350K .......... .......... .......... .......... .......... 99% 19.3M 0s
+ 22400K .......... .......... .......... .......... .......... 99%  126M 0s
+ 22450K .......... ..........                                 100%  119M=0.4s
+
+2022-09-23 04:07:16 (49.4 MB/s) - ‘/home/BKCPkg/tools/Python-3.6.8.tgz’ saved [23010188/23010188]
+
+--2022-09-23 04:07:16--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/Python-3.8.8.tgz
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24483485 (23M) [application/x-gzip]
+Saving to: ‘/home/BKCPkg/tools/Python-3.8.8.tgz’
+
+     0K .......... .......... .......... .......... ..........  0%  379M 0s
+    50K .......... .......... .......... .......... ..........  0% 68.1M 0s
+   100K .......... .......... .......... .......... ..........  0% 95.4M 0s
+   150K .......... .......... .......... .......... ..........  0% 66.4M 0s
+   200K .......... .......... .......... .......... ..........  1%  127M 0s
+   250K .......... .......... .......... .......... ..........  1% 57.3M 0s
+   300K .......... .......... .......... .......... ..........  1% 61.5M 0s
+   350K .......... .......... .......... .......... ..........  1% 42.3M 0s
+   400K .......... .......... .......... .......... ..........  1% 95.8M 0s
+   450K .......... .......... .......... .......... ..........  2%  130M 0s
+   500K .......... .......... .......... .......... ..........  2%  137M 0s
+   550K .......... .......... .......... .......... ..........  2% 91.9M 0s
+   600K .......... .......... .......... .......... ..........  2%  131M 0s
+   650K .......... .......... .......... .......... ..........  2% 94.9M 0s
+   700K .......... .......... .......... .......... ..........  3%  126M 0s
+   750K .......... .......... .......... .......... ..........  3% 72.2M 0s
+   800K .......... .......... .......... .......... ..........  3% 37.3M 0s
+   850K .......... .......... .......... .......... ..........  3% 96.6M 0s
+   900K .......... .......... .......... .......... ..........  3%  131M 0s
+   950K .......... .......... .......... .......... ..........  4% 92.6M 0s
+  1000K .......... .......... .......... .......... ..........  4%  130M 0s
+  1050K .......... .......... .......... .......... ..........  4% 94.1M 0s
+  1100K .......... .......... .......... .......... ..........  4%  132M 0s
+  1150K .......... .......... .......... .......... ..........  5% 56.1M 0s
+  1200K .......... .......... .......... .......... ..........  5% 89.2M 0s
+  1250K .......... .......... .......... .......... ..........  5%  132M 0s
+  1300K .......... .......... .......... .......... ..........  5% 62.3M 0s
+  1350K .......... .......... .......... .......... ..........  5% 68.6M 0s
+  1400K .......... .......... .......... .......... ..........  6% 66.2M 0s
+  1450K .......... .......... .......... .......... ..........  6% 53.1M 0s
+  1500K .......... .......... .......... .......... ..........  6% 28.6M 0s
+  1550K .......... .......... .......... .......... ..........  6%  124M 0s
+  1600K .......... .......... .......... .......... ..........  6% 91.0M 0s
+  1650K .......... .......... .......... .......... ..........  7% 90.5M 0s
+  1700K .......... .......... .......... .......... ..........  7%  136M 0s
+  1750K .......... .......... .......... .......... ..........  7% 67.9M 0s
+  1800K .......... .......... .......... .......... ..........  7%  132M 0s
+  1850K .......... .......... .......... .......... ..........  7% 69.8M 0s
+  1900K .......... .......... .......... .......... ..........  8%  131M 0s
+  1950K .......... .......... .......... .......... ..........  8% 91.4M 0s
+  2000K .......... .......... .......... .......... ..........  8% 95.0M 0s
+  2050K .......... .......... .......... .......... ..........  8% 53.3M 0s
+  2100K .......... .......... .......... .......... ..........  8% 89.3M 0s
+  2150K .......... .......... .......... .......... ..........  9% 50.2M 0s
+  2200K .......... .......... .......... .......... ..........  9% 54.4M 0s
+  2250K .......... .......... .......... .......... ..........  9%  121M 0s
+  2300K .......... .......... .......... .......... ..........  9%  134M 0s
+  2350K .......... .......... .......... .......... .......... 10% 66.6M 0s
+  2400K .......... .......... .......... .......... .......... 10% 69.5M 0s
+  2450K .......... .......... .......... .......... .......... 10% 91.4M 0s
+  2500K .......... .......... .......... .......... .......... 10% 67.4M 0s
+  2550K .......... .......... .......... .......... .......... 10% 85.1M 0s
+  2600K .......... .......... .......... .......... .......... 11%  854K 1s
+  2650K .......... .......... .......... .......... .......... 11% 40.3M 1s
+  2700K .......... .......... .......... .......... .......... 11%  406M 1s
+  2750K .......... .......... .......... .......... .......... 11%  458M 1s
+  2800K .......... .......... .......... .......... .......... 11%  615M 1s
+  2850K .......... .......... .......... .......... .......... 12%  501M 1s
+  2900K .......... .......... .......... .......... .......... 12% 91.6M 1s
+  2950K .......... .......... .......... .......... .......... 12%  145M 1s
+  3000K .......... .......... .......... .......... .......... 12% 3.06M 1s
+  3050K .......... .......... .......... .......... .......... 12%  462M 1s
+  3100K .......... .......... .......... .......... .......... 13%  688M 1s
+  3150K .......... .......... .......... .......... .......... 13%  538M 1s
+  3200K .......... .......... .......... .......... .......... 13%  626M 1s
+  3250K .......... .......... .......... .......... .......... 13%  672M 1s
+  3300K .......... .......... .......... .......... .......... 14%  681M 1s
+  3350K .......... .......... .......... .......... .......... 14%  522M 1s
+  3400K .......... .......... .......... .......... .......... 14%  681M 1s
+  3450K .......... .......... .......... .......... .......... 14%  635M 1s
+  3500K .......... .......... .......... .......... .......... 14%  637M 1s
+  3550K .......... .......... .......... .......... .......... 15%  551M 1s
+  3600K .......... .......... .......... .......... .......... 15%  690M 1s
+  3650K .......... .......... .......... .......... .......... 15%  537M 1s
+  3700K .......... .......... .......... .......... .......... 15%  633M 1s
+  3750K .......... .......... .......... .......... .......... 15%  567M 1s
+  3800K .......... .......... .......... .......... .......... 16%  643M 1s
+  3850K .......... .......... .......... .......... .......... 16%  672M 1s
+  3900K .......... .......... .......... .......... .......... 16%  563M 1s
+  3950K .......... .......... .......... .......... .......... 16%  557M 1s
+  4000K .......... .......... .......... .......... .......... 16%  566M 1s
+  4050K .......... .......... .......... .......... .......... 17%  565M 1s
+  4100K .......... .......... .......... .......... .......... 17%  588M 1s
+  4150K .......... .......... .......... .......... .......... 17%  532M 1s
+  4200K .......... .......... .......... .......... .......... 17%  539M 1s
+  4250K .......... .......... .......... .......... .......... 17%  533M 1s
+  4300K .......... .......... .......... .......... .......... 18%  611M 0s
+  4350K .......... .......... .......... .......... .......... 18%  499M 0s
+  4400K .......... .......... .......... .......... .......... 18%  413M 0s
+  4450K .......... .......... .......... .......... .......... 18%  566M 0s
+  4500K .......... .......... .......... .......... .......... 19%  614M 0s
+  4550K .......... .......... .......... .......... .......... 19%  534M 0s
+  4600K .......... .......... .......... .......... .......... 19%  573M 0s
+  4650K .......... .......... .......... .......... .......... 19%  602M 0s
+  4700K .......... .......... .......... .......... .......... 19%  548M 0s
+  4750K .......... .......... .......... .......... .......... 20%  565M 0s
+  4800K .......... .......... .......... .......... .......... 20%  561M 0s
+  4850K .......... .......... .......... .......... .......... 20%  593M 0s
+  4900K .......... .......... .......... .......... .......... 20%  485M 0s
+  4950K .......... .......... .......... .......... .......... 20%  528M 0s
+  5000K .......... .......... .......... .......... .......... 21%  606M 0s
+  5050K .......... .......... .......... .......... .......... 21%  583M 0s
+  5100K .......... .......... .......... .......... .......... 21%  600M 0s
+  5150K .......... .......... .......... .......... .......... 21%  530M 0s
+  5200K .......... .......... .......... .......... .......... 21%  587M 0s
+  5250K .......... .......... .......... .......... .......... 22%  514M 0s
+  5300K .......... .......... .......... .......... .......... 22%  555M 0s
+  5350K .......... .......... .......... .......... .......... 22%  518M 0s
+  5400K .......... .......... .......... .......... .......... 22%  621M 0s
+  5450K .......... .......... .......... .......... .......... 23%  583M 0s
+  5500K .......... .......... .......... .......... .......... 23%  595M 0s
+  5550K .......... .......... .......... .......... .......... 23%  525M 0s
+  5600K .......... .......... .......... .......... .......... 23%  580M 0s
+  5650K .......... .......... .......... .......... .......... 23%  949K 1s
+  5700K .......... .......... .......... .......... .......... 24% 73.4M 1s
+  5750K .......... .......... .......... .......... .......... 24%  113M 1s
+  5800K .......... .......... .......... .......... .......... 24% 95.7M 1s
+  5850K .......... .......... .......... .......... .......... 24% 57.6M 1s
+  5900K .......... .......... .......... .......... .......... 24% 35.5M 1s
+  5950K .......... .......... .......... .......... .......... 25% 47.0M 1s
+  6000K .......... .......... .......... .......... .......... 25%  128M 1s
+  6050K .......... .......... .......... .......... .......... 25%  102M 1s
+  6100K .......... .......... .......... .......... .......... 25% 61.0M 0s
+  6150K .......... .......... .......... .......... .......... 25% 63.9M 0s
+  6200K .......... .......... .......... .......... .......... 26%  130M 0s
+  6250K .......... .......... .......... .......... .......... 26%  105M 0s
+  6300K .......... .......... .......... .......... .......... 26%  133M 0s
+  6350K .......... .......... .......... .......... .......... 26% 94.1M 0s
+  6400K .......... .......... .......... .......... .......... 26%  129M 0s
+  6450K .......... .......... .......... .......... .......... 27% 93.0M 0s
+  6500K .......... .......... .......... .......... .......... 27%  139M 0s
+  6550K .......... .......... .......... .......... .......... 27% 63.6M 0s
+  6600K .......... .......... .......... .......... .......... 27%  134M 0s
+  6650K .......... .......... .......... .......... .......... 28% 67.3M 0s
+  6700K .......... .......... .......... .......... .......... 28% 56.6M 0s
+  6750K .......... .......... .......... .......... .......... 28%  128M 0s
+  6800K .......... .......... .......... .......... .......... 28% 36.5M 0s
+  6850K .......... .......... .......... .......... .......... 28% 43.0M 0s
+  6900K .......... .......... .......... .......... .......... 29% 91.1M 0s
+  6950K .......... .......... .......... .......... .......... 29% 92.6M 0s
+  7000K .......... .......... .......... .......... .......... 29%  131M 0s
+  7050K .......... .......... .......... .......... .......... 29%  134M 0s
+  7100K .......... .......... .......... .......... .......... 29% 94.3M 0s
+  7150K .......... .......... .......... .......... .......... 30%  132M 0s
+  7200K .......... .......... .......... .......... .......... 30% 92.7M 0s
+  7250K .......... .......... .......... .......... .......... 30%  130M 0s
+  7300K .......... .......... .......... .......... .......... 30% 71.3M 0s
+  7350K .......... .......... .......... .......... .......... 30%  126M 0s
+  7400K .......... .......... .......... .......... .......... 31% 95.1M 0s
+  7450K .......... .......... .......... .......... .......... 31%  132M 0s
+  7500K .......... .......... .......... .......... .......... 31% 90.0M 0s
+  7550K .......... .......... .......... .......... .......... 31% 93.2M 0s
+  7600K .......... .......... .......... .......... .......... 31%  133M 0s
+  7650K .......... .......... .......... .......... .......... 32% 90.1M 0s
+  7700K .......... .......... .......... .......... .......... 32%  133M 0s
+  7750K .......... .......... .......... .......... .......... 32% 1.53M 0s
+  7800K .......... .......... .......... .......... .......... 32%  183M 0s
+  7850K .......... .......... .......... .......... .......... 33% 27.8M 0s
+  7900K .......... .......... .......... .......... .......... 33%  129M 0s
+  7950K .......... .......... .......... .......... .......... 33% 90.6M 0s
+  8000K .......... .......... .......... .......... .......... 33% 95.1M 0s
+  8050K .......... .......... .......... .......... .......... 33%  134M 0s
+  8100K .......... .......... .......... .......... .......... 34%  134M 0s
+  8150K .......... .......... .......... .......... .......... 34% 92.9M 0s
+  8200K .......... .......... .......... .......... .......... 34%  128M 0s
+  8250K .......... .......... .......... .......... .......... 34%  101M 0s
+  8300K .......... .......... .......... .......... .......... 34%  133M 0s
+  8350K .......... .......... .......... .......... .......... 35% 51.7M 0s
+  8400K .......... .......... .......... .......... .......... 35% 43.8M 0s
+  8450K .......... .......... .......... .......... .......... 35%  114M 0s
+  8500K .......... .......... .......... .......... .......... 35% 69.8M 0s
+  8550K .......... .......... .......... .......... .......... 35% 93.9M 0s
+  8600K .......... .......... .......... .......... .......... 36%  101M 0s
+  8650K .......... .......... .......... .......... .......... 36%  133M 0s
+  8700K .......... .......... .......... .......... .......... 36% 98.1M 0s
+  8750K .......... .......... .......... .......... .......... 36%  125M 0s
+  8800K .......... .......... .......... .......... .......... 37% 97.7M 0s
+  8850K .......... .......... .......... .......... .......... 37%  135M 0s
+  8900K .......... .......... .......... .......... .......... 37% 98.4M 0s
+  8950K .......... .......... .......... .......... .......... 37%  126M 0s
+  9000K .......... .......... .......... .......... .......... 37%  104M 0s
+  9050K .......... .......... .......... .......... .......... 38%  104M 0s
+  9100K .......... .......... .......... .......... .......... 38%  134M 0s
+  9150K .......... .......... .......... .......... .......... 38% 97.3M 0s
+  9200K .......... .......... .......... .......... .......... 38% 69.3M 0s
+  9250K .......... .......... .......... .......... .......... 38% 93.4M 0s
+  9300K .......... .......... .......... .......... .......... 39%  131M 0s
+  9350K .......... .......... .......... .......... .......... 39% 94.9M 0s
+  9400K .......... .......... .......... .......... .......... 39%  102M 0s
+  9450K .......... .......... .......... .......... .......... 39% 72.1M 0s
+  9500K .......... .......... .......... .......... .......... 39% 90.3M 0s
+  9550K .......... .......... .......... .......... .......... 40% 96.1M 0s
+  9600K .......... .......... .......... .......... .......... 40%  130M 0s
+  9650K .......... .......... .......... .......... .......... 40% 93.1M 0s
+  9700K .......... .......... .......... .......... .......... 40% 41.8M 0s
+  9750K .......... .......... .......... .......... .......... 40% 71.8M 0s
+  9800K .......... .......... .......... .......... .......... 41%  146M 0s
+  9850K .......... .......... .......... .......... .......... 41% 97.9M 0s
+  9900K .......... .......... .......... .......... .......... 41%  114M 0s
+  9950K .......... .......... .......... .......... .......... 41% 92.8M 0s
+ 10000K .......... .......... .......... .......... .......... 42%  138M 0s
+ 10050K .......... .......... .......... .......... .......... 42% 58.8M 0s
+ 10100K .......... .......... .......... .......... .......... 42% 51.0M 0s
+ 10150K .......... .......... .......... .......... .......... 42%  152M 0s
+ 10200K .......... .......... .......... .......... .......... 42%  104M 0s
+ 10250K .......... .......... .......... .......... .......... 43% 94.5M 0s
+ 10300K .......... .......... .......... .......... .......... 43%  138M 0s
+ 10350K .......... .......... .......... .......... .......... 43% 59.1M 0s
+ 10400K .......... .......... .......... .......... .......... 43%  120M 0s
+ 10450K .......... .......... .......... .......... .......... 43%  135M 0s
+ 10500K .......... .......... .......... .......... .......... 44% 44.2M 0s
+ 10550K .......... .......... .......... .......... .......... 44% 29.8M 0s
+ 10600K .......... .......... .......... .......... .......... 44% 88.7M 0s
+ 10650K .......... .......... .......... .......... .......... 44% 70.4M 0s
+ 10700K .......... .......... .......... .......... .......... 44% 34.7M 0s
+ 10750K .......... .......... .......... .......... .......... 45% 38.9M 0s
+ 10800K .......... .......... .......... .......... .......... 45% 2.41M 0s
+ 10850K .......... .......... .......... .......... .......... 45% 42.0M 0s
+ 10900K .......... .......... .......... .......... .......... 45% 20.9M 0s
+ 10950K .......... .......... .......... .......... .......... 46% 54.9M 0s
+ 11000K .......... .......... .......... .......... .......... 46%  138M 0s
+ 11050K .......... .......... .......... .......... .......... 46% 69.2M 0s
+ 11100K .......... .......... .......... .......... .......... 46% 92.0M 0s
+ 11150K .......... .......... .......... .......... .......... 46% 94.9M 0s
+ 11200K .......... .......... .......... .......... .......... 47% 14.1M 0s
+ 11250K .......... .......... .......... .......... .......... 47% 46.3M 0s
+ 11300K .......... .......... .......... .......... .......... 47%  122M 0s
+ 11350K .......... .......... .......... .......... .......... 47% 91.3M 0s
+ 11400K .......... .......... .......... .......... .......... 47% 97.5M 0s
+ 11450K .......... .......... .......... .......... .......... 48%  129M 0s
+ 11500K .......... .......... .......... .......... .......... 48%  138M 0s
+ 11550K .......... .......... .......... .......... .......... 48% 95.3M 0s
+ 11600K .......... .......... .......... .......... .......... 48% 96.7M 0s
+ 11650K .......... .......... .......... .......... .......... 48% 72.4M 0s
+ 11700K .......... .......... .......... .......... .......... 49%  147M 0s
+ 11750K .......... .......... .......... .......... .......... 49% 94.8M 0s
+ 11800K .......... .......... .......... .......... .......... 49% 71.8M 0s
+ 11850K .......... .......... .......... .......... .......... 49% 81.5M 0s
+ 11900K .......... .......... .......... .......... .......... 49% 94.2M 0s
+ 11950K .......... .......... .......... .......... .......... 50% 48.2M 0s
+ 12000K .......... .......... .......... .......... .......... 50% 53.0M 0s
+ 12050K .......... .......... .......... .......... .......... 50%  116M 0s
+ 12100K .......... .......... .......... .......... .......... 50% 69.5M 0s
+ 12150K .......... .......... .......... .......... .......... 51% 67.1M 0s
+ 12200K .......... .......... .......... .......... .......... 51% 68.4M 0s
+ 12250K .......... .......... .......... .......... .......... 51% 72.1M 0s
+ 12300K .......... .......... .......... .......... .......... 51% 90.1M 0s
+ 12350K .......... .......... .......... .......... .......... 51% 62.6M 0s
+ 12400K .......... .......... .......... .......... .......... 52% 94.2M 0s
+ 12450K .......... .......... .......... .......... .......... 52% 54.6M 0s
+ 12500K .......... .......... .......... .......... .......... 52% 89.0M 0s
+ 12550K .......... .......... .......... .......... .......... 52% 84.2M 0s
+ 12600K .......... .......... .......... .......... .......... 52% 86.5M 0s
+ 12650K .......... .......... .......... .......... .......... 53% 90.0M 0s
+ 12700K .......... .......... .......... .......... .......... 53% 65.1M 0s
+ 12750K .......... .......... .......... .......... .......... 53% 88.3M 0s
+ 12800K .......... .......... .......... .......... .......... 53% 72.5M 0s
+ 12850K .......... .......... .......... .......... .......... 53%  105M 0s
+ 12900K .......... .......... .......... .......... .......... 54% 62.6M 0s
+ 12950K .......... .......... .......... .......... .......... 54% 54.9M 0s
+ 13000K .......... .......... .......... .......... .......... 54% 98.2M 0s
+ 13050K .......... .......... .......... .......... .......... 54% 56.9M 0s
+ 13100K .......... .......... .......... .......... .......... 54% 90.8M 0s
+ 13150K .......... .......... .......... .......... .......... 55%  102M 0s
+ 13200K .......... .......... .......... .......... .......... 55% 96.5M 0s
+ 13250K .......... .......... .......... .......... .......... 55% 95.7M 0s
+ 13300K .......... .......... .......... .......... .......... 55% 86.0M 0s
+ 13350K .......... .......... .......... .......... .......... 56% 48.3M 0s
+ 13400K .......... .......... .......... .......... .......... 56%  117M 0s
+ 13450K .......... .......... .......... .......... .......... 56% 96.4M 0s
+ 13500K .......... .......... .......... .......... .......... 56% 97.3M 0s
+ 13550K .......... .......... .......... .......... .......... 56% 71.8M 0s
+ 13600K .......... .......... .......... .......... .......... 57%  135M 0s
+ 13650K .......... .......... .......... .......... .......... 57% 93.0M 0s
+ 13700K .......... .......... .......... .......... .......... 57% 56.9M 0s
+ 13750K .......... .......... .......... .......... .......... 57% 70.8M 0s
+ 13800K .......... .......... .......... .......... .......... 57% 3.35M 0s
+ 13850K .......... .......... .......... .......... .......... 58% 33.3M 0s
+ 13900K .......... .......... .......... .......... .......... 58% 37.2M 0s
+ 13950K .......... .......... .......... .......... .......... 58% 13.4M 0s
+ 14000K .......... .......... .......... .......... .......... 58% 26.1M 0s
+ 14050K .......... .......... .......... .......... .......... 58%  102M 0s
+ 14100K .......... .......... .......... .......... .......... 59% 43.4M 0s
+ 14150K .......... .......... .......... .......... .......... 59% 96.7M 0s
+ 14200K .......... .......... .......... .......... .......... 59%  128M 0s
+ 14250K .......... .......... .......... .......... .......... 59% 34.0M 0s
+ 14300K .......... .......... .......... .......... .......... 60%  133M 0s
+ 14350K .......... .......... .......... .......... .......... 60% 91.1M 0s
+ 14400K .......... .......... .......... .......... .......... 60%  136M 0s
+ 14450K .......... .......... .......... .......... .......... 60% 96.0M 0s
+ 14500K .......... .......... .......... .......... .......... 60% 16.5M 0s
+ 14550K .......... .......... .......... .......... .......... 61%  108M 0s
+ 14600K .......... .......... .......... .......... .......... 61% 96.7M 0s
+ 14650K .......... .......... .......... .......... .......... 61% 99.9M 0s
+ 14700K .......... .......... .......... .......... .......... 61% 61.8M 0s
+ 14750K .......... .......... .......... .......... .......... 61% 59.9M 0s
+ 14800K .......... .......... .......... .......... .......... 62%  121M 0s
+ 14850K .......... .......... .......... .......... .......... 62%  112M 0s
+ 14900K .......... .......... .......... .......... .......... 62% 71.7M 0s
+ 14950K .......... .......... .......... .......... .......... 62% 97.7M 0s
+ 15000K .......... .......... .......... .......... .......... 62% 98.5M 0s
+ 15050K .......... .......... .......... .......... .......... 63%  140M 0s
+ 15100K .......... .......... .......... .......... .......... 63% 91.6M 0s
+ 15150K .......... .......... .......... .......... .......... 63%  130M 0s
+ 15200K .......... .......... .......... .......... .......... 63%  108M 0s
+ 15250K .......... .......... .......... .......... .......... 63% 92.7M 0s
+ 15300K .......... .......... .......... .......... .......... 64% 98.6M 0s
+ 15350K .......... .......... .......... .......... .......... 64%  101M 0s
+ 15400K .......... .......... .......... .......... .......... 64% 33.1M 0s
+ 15450K .......... .......... .......... .......... .......... 64% 96.5M 0s
+ 15500K .......... .......... .......... .......... .......... 65%  133M 0s
+ 15550K .......... .......... .......... .......... .......... 65% 96.7M 0s
+ 15600K .......... .......... .......... .......... .......... 65%  137M 0s
+ 15650K .......... .......... .......... .......... .......... 65% 97.3M 0s
+ 15700K .......... .......... .......... .......... .......... 65%  128M 0s
+ 15750K .......... .......... .......... .......... .......... 66% 96.4M 0s
+ 15800K .......... .......... .......... .......... .......... 66%  141M 0s
+ 15850K .......... .......... .......... .......... .......... 66% 95.3M 0s
+ 15900K .......... .......... .......... .......... .......... 66%  107M 0s
+ 15950K .......... .......... .......... .......... .......... 66% 8.57M 0s
+ 16000K .......... .......... .......... .......... .......... 67%  103M 0s
+ 16050K .......... .......... .......... .......... .......... 67%  134M 0s
+ 16100K .......... .......... .......... .......... .......... 67% 95.7M 0s
+ 16150K .......... .......... .......... .......... .......... 67%  129M 0s
+ 16200K .......... .......... .......... .......... .......... 67% 67.1M 0s
+ 16250K .......... .......... .......... .......... .......... 68% 95.4M 0s
+ 16300K .......... .......... .......... .......... .......... 68%  134M 0s
+ 16350K .......... .......... .......... .......... .......... 68% 93.4M 0s
+ 16400K .......... .......... .......... .......... .......... 68%  134M 0s
+ 16450K .......... .......... .......... .......... .......... 69% 34.1M 0s
+ 16500K .......... .......... .......... .......... .......... 69% 91.1M 0s
+ 16550K .......... .......... .......... .......... .......... 69% 45.1M 0s
+ 16600K .......... .......... .......... .......... .......... 69% 91.8M 0s
+ 16650K .......... .......... .......... .......... .......... 69%  143M 0s
+ 16700K .......... .......... .......... .......... .......... 70% 49.2M 0s
+ 16750K .......... .......... .......... .......... .......... 70% 90.5M 0s
+ 16800K .......... .......... .......... .......... .......... 70% 5.72M 0s
+ 16850K .......... .......... .......... .......... .......... 70% 62.6M 0s
+ 16900K .......... .......... .......... .......... .......... 70% 29.3M 0s
+ 16950K .......... .......... .......... .......... .......... 71% 9.79M 0s
+ 17000K .......... .......... .......... .......... .......... 71% 34.2M 0s
+ 17050K .......... .......... .......... .......... .......... 71% 45.2M 0s
+ 17100K .......... .......... .......... .......... .......... 71%  127M 0s
+ 17150K .......... .......... .......... .......... .......... 71% 30.7M 0s
+ 17200K .......... .......... .......... .......... .......... 72%  122M 0s
+ 17250K .......... .......... .......... .......... .......... 72% 93.4M 0s
+ 17300K .......... .......... .......... .......... .......... 72%  137M 0s
+ 17350K .......... .......... .......... .......... .......... 72% 46.0M 0s
+ 17400K .......... .......... .......... .......... .......... 72%  124M 0s
+ 17450K .......... .......... .......... .......... .......... 73% 93.8M 0s
+ 17500K .......... .......... .......... .......... .......... 73% 7.61M 0s
+ 17550K .......... .......... .......... .......... .......... 73% 65.4M 0s
+ 17600K .......... .......... .......... .......... .......... 73%  129M 0s
+ 17650K .......... .......... .......... .......... .......... 74% 69.9M 0s
+ 17700K .......... .......... .......... .......... .......... 74%  121M 0s
+ 17750K .......... .......... .......... .......... .......... 74% 96.5M 0s
+ 17800K .......... .......... .......... .......... .......... 74%  109M 0s
+ 17850K .......... .......... .......... .......... .......... 74% 70.3M 0s
+ 17900K .......... .......... .......... .......... .......... 75% 31.3M 0s
+ 17950K .......... .......... .......... .......... .......... 75% 21.1M 0s
+ 18000K .......... .......... .......... .......... .......... 75%  123M 0s
+ 18050K .......... .......... .......... .......... .......... 75%  114M 0s
+ 18100K .......... .......... .......... .......... .......... 75%  102M 0s
+ 18150K .......... .......... .......... .......... .......... 76% 87.9M 0s
+ 18200K .......... .......... .......... .......... .......... 76% 43.7M 0s
+ 18250K .......... .......... .......... .......... .......... 76% 37.6M 0s
+ 18300K .......... .......... .......... .......... .......... 76% 30.7M 0s
+ 18350K .......... .......... .......... .......... .......... 76% 36.7M 0s
+ 18400K .......... .......... .......... .......... .......... 77% 78.7M 0s
+ 18450K .......... .......... .......... .......... .......... 77% 48.4M 0s
+ 18500K .......... .......... .......... .......... .......... 77% 83.9M 0s
+ 18550K .......... .......... .......... .......... .......... 77% 52.4M 0s
+ 18600K .......... .......... .......... .......... .......... 78% 64.0M 0s
+ 18650K .......... .......... .......... .......... .......... 78% 88.4M 0s
+ 18700K .......... .......... .......... .......... .......... 78% 59.1M 0s
+ 18750K .......... .......... .......... .......... .......... 78% 64.9M 0s
+ 18800K .......... .......... .......... .......... .......... 78% 48.1M 0s
+ 18850K .......... .......... .......... .......... .......... 79%  122M 0s
+ 18900K .......... .......... .......... .......... .......... 79% 97.4M 0s
+ 18950K .......... .......... .......... .......... .......... 79% 91.8M 0s
+ 19000K .......... .......... .......... .......... .......... 79% 68.0M 0s
+ 19050K .......... .......... .......... .......... .......... 79%  120M 0s
+ 19100K .......... .......... .......... .......... .......... 80% 93.4M 0s
+ 19150K .......... .......... .......... .......... .......... 80% 55.2M 0s
+ 19200K .......... .......... .......... .......... .......... 80% 81.8M 0s
+ 19250K .......... .......... .......... .......... .......... 80%  139M 0s
+ 19300K .......... .......... .......... .......... .......... 80% 92.5M 0s
+ 19350K .......... .......... .......... .......... .......... 81%  141M 0s
+ 19400K .......... .......... .......... .......... .......... 81% 73.8M 0s
+ 19450K .......... .......... .......... .......... .......... 81% 90.3M 0s
+ 19500K .......... .......... .......... .......... .......... 81%  136M 0s
+ 19550K .......... .......... .......... .......... .......... 81% 97.8M 0s
+ 19600K .......... .......... .......... .......... .......... 82% 56.5M 0s
+ 19650K .......... .......... .......... .......... .......... 82%  124M 0s
+ 19700K .......... .......... .......... .......... .......... 82%  129M 0s
+ 19750K .......... .......... .......... .......... .......... 82% 90.5M 0s
+ 19800K .......... .......... .......... .......... .......... 83% 89.6M 0s
+ 19850K .......... .......... .......... .......... .......... 83% 26.8M 0s
+ 19900K .......... .......... .......... .......... .......... 83% 23.6M 0s
+ 19950K .......... .......... .......... .......... .......... 83% 9.99M 0s
+ 20000K .......... .......... .......... .......... .......... 83% 13.5M 0s
+ 20050K .......... .......... .......... .......... .......... 84%  110M 0s
+ 20100K .......... .......... .......... .......... .......... 84% 95.4M 0s
+ 20150K .......... .......... .......... .......... .......... 84%  129M 0s
+ 20200K .......... .......... .......... .......... .......... 84% 95.6M 0s
+ 20250K .......... .......... .......... .......... .......... 84% 58.0M 0s
+ 20300K .......... .......... .......... .......... .......... 85% 52.7M 0s
+ 20350K .......... .......... .......... .......... .......... 85% 67.9M 0s
+ 20400K .......... .......... .......... .......... .......... 85% 91.7M 0s
+ 20450K .......... .......... .......... .......... .......... 85% 58.2M 0s
+ 20500K .......... .......... .......... .......... .......... 85% 94.6M 0s
+ 20550K .......... .......... .......... .......... .......... 86% 4.57M 0s
+ 20600K .......... .......... .......... .......... .......... 86% 87.9M 0s
+ 20650K .......... .......... .......... .......... .......... 86%  100M 0s
+ 20700K .......... .......... .......... .......... .......... 86%  130M 0s
+ 20750K .......... .......... .......... .......... .......... 86%  108M 0s
+ 20800K .......... .......... .......... .......... .......... 87% 96.1M 0s
+ 20850K .......... .......... .......... .......... .......... 87%  142M 0s
+ 20900K .......... .......... .......... .......... .......... 87% 99.1M 0s
+ 20950K .......... .......... .......... .......... .......... 87%  128M 0s
+ 21000K .......... .......... .......... .......... .......... 88% 97.2M 0s
+ 21050K .......... .......... .......... .......... .......... 88%  143M 0s
+ 21100K .......... .......... .......... .......... .......... 88% 92.1M 0s
+ 21150K .......... .......... .......... .......... .......... 88% 95.0M 0s
+ 21200K .......... .......... .......... .......... .......... 88%  135M 0s
+ 21250K .......... .......... .......... .......... .......... 89%  128M 0s
+ 21300K .......... .......... .......... .......... .......... 89% 91.8M 0s
+ 21350K .......... .......... .......... .......... .......... 89% 18.8M 0s
+ 21400K .......... .......... .......... .......... .......... 89%  143M 0s
+ 21450K .......... .......... .......... .......... .......... 89% 55.8M 0s
+ 21500K .......... .......... .......... .......... .......... 90% 58.1M 0s
+ 21550K .......... .......... .......... .......... .......... 90%  104M 0s
+ 21600K .......... .......... .......... .......... .......... 90% 29.1M 0s
+ 21650K .......... .......... .......... .......... .......... 90%  120M 0s
+ 21700K .......... .......... .......... .......... .......... 90% 63.4M 0s
+ 21750K .......... .......... .......... .......... .......... 91% 66.3M 0s
+ 21800K .......... .......... .......... .......... .......... 91% 31.7M 0s
+ 21850K .......... .......... .......... .......... .......... 91%  123M 0s
+ 21900K .......... .......... .......... .......... .......... 91%  139M 0s
+ 21950K .......... .......... .......... .......... .......... 92% 12.1M 0s
+ 22000K .......... .......... .......... .......... .......... 92% 61.1M 0s
+ 22050K .......... .......... .......... .......... .......... 92% 48.0M 0s
+ 22100K .......... .......... .......... .......... .......... 92% 67.7M 0s
+ 22150K .......... .......... .......... .......... .......... 92% 71.0M 0s
+ 22200K .......... .......... .......... .......... .......... 93% 47.2M 0s
+ 22250K .......... .......... .......... .......... .......... 93% 64.1M 0s
+ 22300K .......... .......... .......... .......... .......... 93% 67.6M 0s
+ 22350K .......... .......... .......... .......... .......... 93% 65.7M 0s
+ 22400K .......... .......... .......... .......... .......... 93%  134M 0s
+ 22450K .......... .......... .......... .......... .......... 94% 94.8M 0s
+ 22500K .......... .......... .......... .......... .......... 94% 51.2M 0s
+ 22550K .......... .......... .......... .......... .......... 94%  104M 0s
+ 22600K .......... .......... .......... .......... .......... 94% 93.4M 0s
+ 22650K .......... .......... .......... .......... .......... 94% 41.1M 0s
+ 22700K .......... .......... .......... .......... .......... 95% 72.7M 0s
+ 22750K .......... .......... .......... .......... .......... 95% 86.4M 0s
+ 22800K .......... .......... .......... .......... .......... 95%  132M 0s
+ 22850K .......... .......... .......... .......... .......... 95% 95.1M 0s
+ 22900K .......... .......... .......... .......... .......... 95%  131M 0s
+ 22950K .......... .......... .......... .......... .......... 96% 68.1M 0s
+ 23000K .......... .......... .......... .......... .......... 96% 11.8M 0s
+ 23050K .......... .......... .......... .......... .......... 96%  156M 0s
+ 23100K .......... .......... .......... .......... .......... 96% 66.9M 0s
+ 23150K .......... .......... .......... .......... .......... 97% 90.5M 0s
+ 23200K .......... .......... .......... .......... .......... 97% 90.3M 0s
+ 23250K .......... .......... .......... .......... .......... 97%  134M 0s
+ 23300K .......... .......... .......... .......... .......... 97%  132M 0s
+ 23350K .......... .......... .......... .......... .......... 97% 71.3M 0s
+ 23400K .......... .......... .......... .......... .......... 98% 57.2M 0s
+ 23450K .......... .......... .......... .......... .......... 98% 3.42M 0s
+ 23500K .......... .......... .......... .......... .......... 98% 75.4M 0s
+ 23550K .......... .......... .......... .......... .......... 98% 32.1M 0s
+ 23600K .......... .......... .......... .......... .......... 98%  123M 0s
+ 23650K .......... .......... .......... .......... .......... 99%  130M 0s
+ 23700K .......... .......... .......... .......... .......... 99% 93.7M 0s
+ 23750K .......... .......... .......... .......... .......... 99%  136M 0s
+ 23800K .......... .......... .......... .......... .......... 99% 97.7M 0s
+ 23850K .......... .......... .......... .......... .......... 99%  133M 0s
+ 23900K .........                                             100% 60.1M=0.5s
+
+2022-09-23 04:07:16 (43.6 MB/s) - ‘/home/BKCPkg/tools/Python-3.8.8.tgz’ saved [24483485/24483485]
+
+--2022-09-23 04:07:16--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python3-pip-9.0.3-16.el8.noarch.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 19972 (20K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python3-pip-9.0.3-16.el8.noarch.rpm’
+
+     0K .......... .........                                  100%  190M=0s
+
+2022-09-23 04:07:16 (190 MB/s) - ‘/home/BKCPkg/tools/python3-pip-9.0.3-16.el8.noarch.rpm’ saved [19972/19972]
+
+--2022-09-23 04:07:16--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python3-setuptools-39.2.0-5.el8.noarch.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 166480 (163K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python3-setuptools-39.2.0-5.el8.noarch.rpm’
+
+     0K .......... .......... .......... .......... .......... 30%  141M 0s
+    50K .......... .......... .......... .......... .......... 61%  132M 0s
+   100K .......... .......... .......... .......... .......... 92% 59.3M 0s
+   150K .......... ..                                         100% 59.4M=0.002s
+
+2022-09-23 04:07:16 (90.8 MB/s) - ‘/home/BKCPkg/tools/python3-setuptools-39.2.0-5.el8.noarch.rpm’ saved [166480/166480]
+
+--2022-09-23 04:07:16--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python36-3.6.8-2.module+el8.1.0+3334+5cb623d7.x86_64.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 19550 (19K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python36-3.6.8-2.module+el8.1.0+3334+5cb623d7.x86_64.rpm’
+
+     0K .......... .........                                  100%  194M=0s
+
+2022-09-23 04:07:17 (194 MB/s) - ‘/home/BKCPkg/tools/python36-3.6.8-2.module+el8.1.0+3334+5cb623d7.x86_64.rpm’ saved [19550/19550]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python3-libs-3.6.8-37.el8.x86_64.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8182428 (7.8M) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python3-libs-3.6.8-37.el8.x86_64.rpm’
+
+     0K .......... .......... .......... .......... ..........  0%  444M 0s
+    50K .......... .......... .......... .......... ..........  1%  220M 0s
+   100K .......... .......... .......... .......... ..........  1%  101M 0s
+   150K .......... .......... .......... .......... ..........  2%  130M 0s
+   200K .......... .......... .......... .......... ..........  3% 93.4M 0s
+   250K .......... .......... .......... .......... ..........  3%  135M 0s
+   300K .......... .......... .......... .......... ..........  4% 95.2M 0s
+   350K .......... .......... .......... .......... ..........  5%  129M 0s
+   400K .......... .......... .......... .......... ..........  5% 95.8M 0s
+   450K .......... .......... .......... .......... ..........  6%  133M 0s
+   500K .......... .......... .......... .......... ..........  6%  131M 0s
+   550K .......... .......... .......... .......... ..........  7% 93.2M 0s
+   600K .......... .......... .......... .......... ..........  8% 39.4M 0s
+   650K .......... .......... .......... .......... ..........  8%  125M 0s
+   700K .......... .......... .......... .......... ..........  9% 93.4M 0s
+   750K .......... .......... .......... .......... .......... 10% 93.4M 0s
+   800K .......... .......... .......... .......... .......... 10% 83.2M 0s
+   850K .......... .......... .......... .......... .......... 11% 98.9M 0s
+   900K .......... .......... .......... .......... .......... 11%  133M 0s
+   950K .......... .......... .......... .......... .......... 12% 93.2M 0s
+  1000K .......... .......... .......... .......... .......... 13%  134M 0s
+  1050K .......... .......... .......... .......... .......... 13%  131M 0s
+  1100K .......... .......... .......... .......... .......... 14% 68.1M 0s
+  1150K .......... .......... .......... .......... .......... 15% 70.1M 0s
+  1200K .......... .......... .......... .......... .......... 15% 48.8M 0s
+  1250K .......... .......... .......... .......... .......... 16%  122M 0s
+  1300K .......... .......... .......... .......... .......... 16% 92.1M 0s
+  1350K .......... .......... .......... .......... .......... 17% 68.0M 0s
+  1400K .......... .......... .......... .......... .......... 18%  134M 0s
+  1450K .......... .......... .......... .......... .......... 18%  134M 0s
+  1500K .......... .......... .......... .......... .......... 19% 89.6M 0s
+  1550K .......... .......... .......... .......... .......... 20% 70.0M 0s
+  1600K .......... .......... .......... .......... .......... 20%  130M 0s
+  1650K .......... .......... .......... .......... .......... 21% 70.4M 0s
+  1700K .......... .......... .......... .......... .......... 21% 67.0M 0s
+  1750K .......... .......... .......... .......... .......... 22%  120M 0s
+  1800K .......... .......... .......... .......... .......... 23% 94.4M 0s
+  1850K .......... .......... .......... .......... .......... 23%  128M 0s
+  1900K .......... .......... .......... .......... .......... 24%  133M 0s
+  1950K .......... .......... .......... .......... .......... 25% 93.2M 0s
+  2000K .......... .......... .......... .......... .......... 25% 91.7M 0s
+  2050K .......... .......... .......... .......... .......... 26%  130M 0s
+  2100K .......... .......... .......... .......... .......... 26% 31.6M 0s
+  2150K .......... .......... .......... .......... .......... 27%  120M 0s
+  2200K .......... .......... .......... .......... .......... 28% 69.0M 0s
+  2250K .......... .......... .......... .......... .......... 28%  138M 0s
+  2300K .......... .......... .......... .......... .......... 29% 93.6M 0s
+  2350K .......... .......... .......... .......... .......... 30% 53.8M 0s
+  2400K .......... .......... .......... .......... .......... 30% 65.7M 0s
+  2450K .......... .......... .......... .......... .......... 31%  121M 0s
+  2500K .......... .......... .......... .......... .......... 31% 67.4M 0s
+  2550K .......... .......... .......... .......... .......... 32% 93.4M 0s
+  2600K .......... .......... .......... .......... .......... 33%  133M 0s
+  2650K .......... .......... .......... .......... .......... 33% 91.9M 0s
+  2700K .......... .......... .......... .......... .......... 34%  131M 0s
+  2750K .......... .......... .......... .......... .......... 35% 94.0M 0s
+  2800K .......... .......... .......... .......... .......... 35% 67.3M 0s
+  2850K .......... .......... .......... .......... .......... 36%  119M 0s
+  2900K .......... .......... .......... .......... .......... 36%  131M 0s
+  2950K .......... .......... .......... .......... .......... 37% 93.7M 0s
+  3000K .......... .......... .......... .......... .......... 38% 1.99M 0s
+  3050K .......... .......... .......... .......... .......... 38% 57.2M 0s
+  3100K .......... .......... .......... .......... .......... 39% 60.1M 0s
+  3150K .......... .......... .......... .......... .......... 40% 93.7M 0s
+  3200K .......... .......... .......... .......... .......... 40% 91.8M 0s
+  3250K .......... .......... .......... .......... .......... 41% 88.2M 0s
+  3300K .......... .......... .......... .......... .......... 41% 35.6M 0s
+  3350K .......... .......... .......... .......... .......... 42%  104M 0s
+  3400K .......... .......... .......... .......... .......... 43% 96.8M 0s
+  3450K .......... .......... .......... .......... .......... 43% 51.0M 0s
+  3500K .......... .......... .......... .......... .......... 44% 93.0M 0s
+  3550K .......... .......... .......... .......... .......... 45% 72.8M 0s
+  3600K .......... .......... .......... .......... .......... 45%  136M 0s
+  3650K .......... .......... .......... .......... .......... 46% 87.1M 0s
+  3700K .......... .......... .......... .......... .......... 46% 56.9M 0s
+  3750K .......... .......... .......... .......... .......... 47%  125M 0s
+  3800K .......... .......... .......... .......... .......... 48% 94.0M 0s
+  3850K .......... .......... .......... .......... .......... 48% 95.7M 0s
+  3900K .......... .......... .......... .......... .......... 49%  138M 0s
+  3950K .......... .......... .......... .......... .......... 50% 93.3M 0s
+  4000K .......... .......... .......... .......... .......... 50% 15.3M 0s
+  4050K .......... .......... .......... .......... .......... 51% 97.9M 0s
+  4100K .......... .......... .......... .......... .......... 51%  139M 0s
+  4150K .......... .......... .......... .......... .......... 52% 94.1M 0s
+  4200K .......... .......... .......... .......... .......... 53% 95.4M 0s
+  4250K .......... .......... .......... .......... .......... 53%  136M 0s
+  4300K .......... .......... .......... .......... .......... 54%  128M 0s
+  4350K .......... .......... .......... .......... .......... 55% 92.7M 0s
+  4400K .......... .......... .......... .......... .......... 55%  135M 0s
+  4450K .......... .......... .......... .......... .......... 56% 72.0M 0s
+  4500K .......... .......... .......... .......... .......... 56%  140M 0s
+  4550K .......... .......... .......... .......... .......... 57% 90.5M 0s
+  4600K .......... .......... .......... .......... .......... 58%  143M 0s
+  4650K .......... .......... .......... .......... .......... 58% 97.2M 0s
+  4700K .......... .......... .......... .......... .......... 59%  134M 0s
+  4750K .......... .......... .......... .......... .......... 60% 92.5M 0s
+  4800K .......... .......... .......... .......... .......... 60%  139M 0s
+  4850K .......... .......... .......... .......... .......... 61% 93.4M 0s
+  4900K .......... .......... .......... .......... .......... 61%  141M 0s
+  4950K .......... .......... .......... .......... .......... 62% 74.3M 0s
+  5000K .......... .......... .......... .......... .......... 63% 71.5M 0s
+  5050K .......... .......... .......... .......... .......... 63%  121M 0s
+  5100K .......... .......... .......... .......... .......... 64%  131M 0s
+  5150K .......... .......... .......... .......... .......... 65% 99.0M 0s
+  5200K .......... .......... .......... .......... .......... 65% 40.1M 0s
+  5250K .......... .......... .......... .......... .......... 66% 93.6M 0s
+  5300K .......... .......... .......... .......... .......... 66% 90.8M 0s
+  5350K .......... .......... .......... .......... .......... 67% 96.5M 0s
+  5400K .......... .......... .......... .......... .......... 68%  134M 0s
+  5450K .......... .......... .......... .......... .......... 68% 96.0M 0s
+  5500K .......... .......... .......... .......... .......... 69%  131M 0s
+  5550K .......... .......... .......... .......... .......... 70% 96.1M 0s
+  5600K .......... .......... .......... .......... .......... 70%  131M 0s
+  5650K .......... .......... .......... .......... .......... 71% 94.8M 0s
+  5700K .......... .......... .......... .......... .......... 71%  133M 0s
+  5750K .......... .......... .......... .......... .......... 72% 99.2M 0s
+  5800K .......... .......... .......... .......... .......... 73%  126M 0s
+  5850K .......... .......... .......... .......... .......... 73% 97.9M 0s
+  5900K .......... .......... .......... .......... .......... 74%  127M 0s
+  5950K .......... .......... .......... .......... .......... 75% 94.5M 0s
+  6000K .......... .......... .......... .......... .......... 75%  141M 0s
+  6050K .......... .......... .......... .......... .......... 76% 2.24M 0s
+  6100K .......... .......... .......... .......... .......... 76% 6.00M 0s
+  6150K .......... .......... .......... .......... .......... 77%  118M 0s
+  6200K .......... .......... .......... .......... .......... 78% 94.4M 0s
+  6250K .......... .......... .......... .......... .......... 78% 98.7M 0s
+  6300K .......... .......... .......... .......... .......... 79% 73.1M 0s
+  6350K .......... .......... .......... .......... .......... 80% 66.2M 0s
+  6400K .......... .......... .......... .......... .......... 80% 90.1M 0s
+  6450K .......... .......... .......... .......... .......... 81% 90.6M 0s
+  6500K .......... .......... .......... .......... .......... 81%  134M 0s
+  6550K .......... .......... .......... .......... .......... 82% 58.4M 0s
+  6600K .......... .......... .......... .......... .......... 83%  122M 0s
+  6650K .......... .......... .......... .......... .......... 83% 50.9M 0s
+  6700K .......... .......... .......... .......... .......... 84% 38.0M 0s
+  6750K .......... .......... .......... .......... .......... 85% 92.5M 0s
+  6800K .......... .......... .......... .......... .......... 85% 68.4M 0s
+  6850K .......... .......... .......... .......... .......... 86% 63.7M 0s
+  6900K .......... .......... .......... .......... .......... 86%  133M 0s
+  6950K .......... .......... .......... .......... .......... 87% 57.1M 0s
+  7000K .......... .......... .......... .......... .......... 88% 36.9M 0s
+  7050K .......... .......... .......... .......... .......... 88% 91.8M 0s
+  7100K .......... .......... .......... .......... .......... 89% 94.6M 0s
+  7150K .......... .......... .......... .......... .......... 90%  133M 0s
+  7200K .......... .......... .......... .......... .......... 90%  100M 0s
+  7250K .......... .......... .......... .......... .......... 91%  128M 0s
+  7300K .......... .......... .......... .......... .......... 91% 76.7M 0s
+  7350K .......... .......... .......... .......... .......... 92% 57.9M 0s
+  7400K .......... .......... .......... .......... .......... 93% 36.6M 0s
+  7450K .......... .......... .......... .......... .......... 93% 99.2M 0s
+  7500K .......... .......... .......... .......... .......... 94% 98.7M 0s
+  7550K .......... .......... .......... .......... .......... 95% 54.8M 0s
+  7600K .......... .......... .......... .......... .......... 95% 71.8M 0s
+  7650K .......... .......... .......... .......... .......... 96%  147M 0s
+  7700K .......... .......... .......... .......... .......... 96% 43.0M 0s
+  7750K .......... .......... .......... .......... .......... 97%  133M 0s
+  7800K .......... .......... .......... .......... .......... 98% 95.4M 0s
+  7850K .......... .......... .......... .......... .......... 98%  137M 0s
+  7900K .......... .......... .......... .......... .......... 99% 91.9M 0s
+  7950K .......... .......... .......... ..........           100%  111M=0.1s
+
+2022-09-23 04:07:17 (54.3 MB/s) - ‘/home/BKCPkg/tools/python3-libs-3.6.8-37.el8.x86_64.rpm’ saved [8182428/8182428]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python3-pip-wheel-9.0.3-20.el8.noarch.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1096048 (1.0M) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python3-pip-wheel-9.0.3-20.el8.noarch.rpm’
+
+     0K .......... .......... .......... .......... ..........  4%  158M 0s
+    50K .......... .......... .......... .......... ..........  9%  137M 0s
+   100K .......... .......... .......... .......... .......... 14%  101M 0s
+   150K .......... .......... .......... .......... .......... 18% 88.9M 0s
+   200K .......... .......... .......... .......... .......... 23% 97.5M 0s
+   250K .......... .......... .......... .......... .......... 28% 72.5M 0s
+   300K .......... .......... .......... .......... .......... 32%  111M 0s
+   350K .......... .......... .......... .......... .......... 37% 94.3M 0s
+   400K .......... .......... .......... .......... .......... 42% 94.8M 0s
+   450K .......... .......... .......... .......... .......... 46%  131M 0s
+   500K .......... .......... .......... .......... .......... 51%  137M 0s
+   550K .......... .......... .......... .......... .......... 56% 55.6M 0s
+   600K .......... .......... .......... .......... .......... 60%  138M 0s
+   650K .......... .......... .......... .......... .......... 65% 37.6M 0s
+   700K .......... .......... .......... .......... .......... 70% 54.0M 0s
+   750K .......... .......... .......... .......... .......... 74%  117M 0s
+   800K .......... .......... .......... .......... .......... 79% 27.5M 0s
+   850K .......... .......... .......... .......... .......... 84%  110M 0s
+   900K .......... .......... .......... .......... .......... 88% 93.9M 0s
+   950K .......... .......... .......... .......... .......... 93% 92.2M 0s
+  1000K .......... .......... .......... .......... .......... 98%  134M 0s
+  1050K .......... ..........                                 100%  110M=0.01s
+
+2022-09-23 04:07:17 (82.0 MB/s) - ‘/home/BKCPkg/tools/python3-pip-wheel-9.0.3-20.el8.noarch.rpm’ saved [1096048/1096048]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python3-setuptools-wheel-39.2.0-6.el8.noarch.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 295728 (289K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python3-setuptools-wheel-39.2.0-6.el8.noarch.rpm’
+
+     0K .......... .......... .......... .......... .......... 17% 77.6M 0s
+    50K .......... .......... .......... .......... .......... 34% 32.1M 0s
+   100K .......... .......... .......... .......... .......... 51%  128M 0s
+   150K .......... .......... .......... .......... .......... 69% 92.2M 0s
+   200K .......... .......... .......... .......... .......... 86% 97.0M 0s
+   250K .......... .......... .......... ........             100%  181M=0.004s
+
+2022-09-23 04:07:17 (74.7 MB/s) - ‘/home/BKCPkg/tools/python3-setuptools-wheel-39.2.0-6.el8.noarch.rpm’ saved [295728/295728]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python38-3.8.8-4.module_el8.5.0+896+eb9e77ba.x86_64.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 81154 (79K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python38-3.8.8-4.module_el8.5.0+896+eb9e77ba.x86_64.rpm’
+
+     0K .......... .......... .......... .......... .......... 63%  109M 0s
+    50K .......... .......... .........                       100%  179M=0.001s
+
+2022-09-23 04:07:17 (127 MB/s) - ‘/home/BKCPkg/tools/python38-3.8.8-4.module_el8.5.0+896+eb9e77ba.x86_64.rpm’ saved [81154/81154]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python38-pip-19.3.1-4.module_el8.5.0+896+eb9e77ba.noarch.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1953190 (1.9M) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python38-pip-19.3.1-4.module_el8.5.0+896+eb9e77ba.noarch.rpm’
+
+     0K .......... .......... .......... .......... ..........  2%  101M 0s
+    50K .......... .......... .......... .......... ..........  5% 31.9M 0s
+   100K .......... .......... .......... .......... ..........  7%  125M 0s
+   150K .......... .......... .......... .......... .......... 10% 65.9M 0s
+   200K .......... .......... .......... .......... .......... 13% 53.5M 0s
+   250K .......... .......... .......... .......... .......... 15%  119M 0s
+   300K .......... .......... .......... .......... .......... 18%  128M 0s
+   350K .......... .......... .......... .......... .......... 20% 69.2M 0s
+   400K .......... .......... .......... .......... .......... 23% 94.0M 0s
+   450K .......... .......... .......... .......... .......... 26% 92.1M 0s
+   500K .......... .......... .......... .......... .......... 28% 93.4M 0s
+   550K .......... .......... .......... .......... .......... 31% 53.9M 0s
+   600K .......... .......... .......... .......... .......... 34%  122M 0s
+   650K .......... .......... .......... .......... .......... 36% 92.6M 0s
+   700K .......... .......... .......... .......... .......... 39% 68.6M 0s
+   750K .......... .......... .......... .......... .......... 41% 84.3M 0s
+   800K .......... .......... .......... .......... .......... 44%  122M 0s
+   850K .......... .......... .......... .......... .......... 47% 98.3M 0s
+   900K .......... .......... .......... .......... .......... 49%  132M 0s
+   950K .......... .......... .......... .......... .......... 52% 93.3M 0s
+  1000K .......... .......... .......... .......... .......... 55%  132M 0s
+  1050K .......... .......... .......... .......... .......... 57% 93.7M 0s
+  1100K .......... .......... .......... .......... .......... 60% 48.6M 0s
+  1150K .......... .......... .......... .......... .......... 62%  120M 0s
+  1200K .......... .......... .......... .......... .......... 65% 70.3M 0s
+  1250K .......... .......... .......... .......... .......... 68% 86.7M 0s
+  1300K .......... .......... .......... .......... .......... 70% 96.1M 0s
+  1350K .......... .......... .......... .......... .......... 73%  126M 0s
+  1400K .......... .......... .......... .......... .......... 76% 96.1M 0s
+  1450K .......... .......... .......... .......... .......... 78%  131M 0s
+  1500K .......... .......... .......... .......... .......... 81% 92.7M 0s
+  1550K .......... .......... .......... .......... .......... 83%  130M 0s
+  1600K .......... .......... .......... .......... .......... 86% 92.3M 0s
+  1650K .......... .......... .......... .......... .......... 89% 47.6M 0s
+  1700K .......... .......... .......... .......... .......... 91%  121M 0s
+  1750K .......... .......... .......... .......... .......... 94% 64.7M 0s
+  1800K .......... .......... .......... .......... .......... 96%  132M 0s
+  1850K .......... .......... .......... .......... .......... 99%  128M 0s
+  1900K .......                                               100% 48.1M=0.02s
+
+2022-09-23 04:07:17 (85.1 MB/s) - ‘/home/BKCPkg/tools/python38-pip-19.3.1-4.module_el8.5.0+896+eb9e77ba.noarch.rpm’ saved [1953190/1953190]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python38-setuptools-41.6.0-5.module_el8.5.0+896+eb9e77ba.noarch.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 683206 (667K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python38-setuptools-41.6.0-5.module_el8.5.0+896+eb9e77ba.noarch.rpm’
+
+     0K .......... .......... .......... .......... ..........  7%  115M 0s
+    50K .......... .......... .......... .......... .......... 14%  138M 0s
+   100K .......... .......... .......... .......... .......... 22% 99.4M 0s
+   150K .......... .......... .......... .......... .......... 29% 96.4M 0s
+   200K .......... .......... .......... .......... .......... 37%  131M 0s
+   250K .......... .......... .......... .......... .......... 44%  101M 0s
+   300K .......... .......... .......... .......... .......... 52%  133M 0s
+   350K .......... .......... .......... .......... .......... 59% 70.1M 0s
+   400K .......... .......... .......... .......... .......... 67%  118M 0s
+   450K .......... .......... .......... .......... .......... 74% 95.8M 0s
+   500K .......... .......... .......... .......... .......... 82% 90.1M 0s
+   550K .......... .......... .......... .......... .......... 89% 52.8M 0s
+   600K .......... .......... .......... .......... .......... 97%  120M 0s
+   650K .......... .......                                    100% 94.6M=0.007s
+
+2022-09-23 04:07:17 (97.6 MB/s) - ‘/home/BKCPkg/tools/python38-setuptools-41.6.0-5.module_el8.5.0+896+eb9e77ba.noarch.rpm’ saved [683206/683206]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/python38-libs-3.8.8-4.module_el8.5.0+896+eb9e77ba.x86_64.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8697338 (8.3M) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/python38-libs-3.8.8-4.module_el8.5.0+896+eb9e77ba.x86_64.rpm’
+
+     0K .......... .......... .......... .......... ..........  0%  111M 0s
+    50K .......... .......... .......... .......... ..........  1% 40.6M 0s
+   100K .......... .......... .......... .......... ..........  1%  144M 0s
+   150K .......... .......... .......... .......... ..........  2% 93.0M 0s
+   200K .......... .......... .......... .......... ..........  2% 40.7M 0s
+   250K .......... .......... .......... .......... ..........  3% 46.3M 0s
+   300K .......... .......... .......... .......... ..........  4%  130M 0s
+   350K .......... .......... .......... .......... ..........  4% 34.0M 0s
+   400K .......... .......... .......... .......... ..........  5%  129M 0s
+   450K .......... .......... .......... .......... ..........  5%  141M 0s
+   500K .......... .......... .......... .......... ..........  6% 96.3M 0s
+   550K .......... .......... .......... .......... ..........  7% 89.8M 0s
+   600K .......... .......... .......... .......... ..........  7%  136M 0s
+   650K .......... .......... .......... .......... ..........  8%  134M 0s
+   700K .......... .......... .......... .......... ..........  8% 93.7M 0s
+   750K .......... .......... .......... .......... ..........  9%  129M 0s
+   800K .......... .......... .......... .......... .......... 10% 95.5M 0s
+   850K .......... .......... .......... .......... .......... 10%  125M 0s
+   900K .......... .......... .......... .......... .......... 11% 65.2M 0s
+   950K .......... .......... .......... .......... .......... 11%  130M 0s
+  1000K .......... .......... .......... .......... .......... 12% 94.8M 0s
+  1050K .......... .......... .......... .......... .......... 12%  132M 0s
+  1100K .......... .......... .......... .......... .......... 13%  132M 0s
+  1150K .......... .......... .......... .......... .......... 14% 41.2M 0s
+  1200K .......... .......... .......... .......... .......... 14%  130M 0s
+  1250K .......... .......... .......... .......... .......... 15%  137M 0s
+  1300K .......... .......... .......... .......... .......... 15% 92.0M 0s
+  1350K .......... .......... .......... .......... .......... 16%  130M 0s
+  1400K .......... .......... .......... .......... .......... 17% 95.9M 0s
+  1450K .......... .......... .......... .......... .......... 17%  128M 0s
+  1500K .......... .......... .......... .......... .......... 18% 94.9M 0s
+  1550K .......... .......... .......... .......... .......... 18%  131M 0s
+  1600K .......... .......... .......... .......... .......... 19% 92.6M 0s
+  1650K .......... .......... .......... .......... .......... 20%  131M 0s
+  1700K .......... .......... .......... .......... .......... 20%  132M 0s
+  1750K .......... .......... .......... .......... .......... 21% 94.9M 0s
+  1800K .......... .......... .......... .......... .......... 21%  132M 0s
+  1850K .......... .......... .......... .......... .......... 22% 94.5M 0s
+  1900K .......... .......... .......... .......... .......... 22%  131M 0s
+  1950K .......... .......... .......... .......... .......... 23% 92.3M 0s
+  2000K .......... .......... .......... .......... .......... 24% 22.4M 0s
+  2050K .......... .......... .......... .......... .......... 24%  113M 0s
+  2100K .......... .......... .......... .......... .......... 25% 94.9M 0s
+  2150K .......... .......... .......... .......... .......... 25% 90.9M 0s
+  2200K .......... .......... .......... .......... .......... 26%  134M 0s
+  2250K .......... .......... .......... .......... .......... 27%  129M 0s
+  2300K .......... .......... .......... .......... .......... 27% 95.0M 0s
+  2350K .......... .......... .......... .......... .......... 28%  131M 0s
+  2400K .......... .......... .......... .......... .......... 28% 92.6M 0s
+  2450K .......... .......... .......... .......... .......... 29%  135M 0s
+  2500K .......... .......... .......... .......... .......... 30% 93.2M 0s
+  2550K .......... .......... .......... .......... .......... 30% 89.3M 0s
+  2600K .......... .......... .......... .......... .......... 31% 93.0M 0s
+  2650K .......... .......... .......... .......... .......... 31%  131M 0s
+  2700K .......... .......... .......... .......... .......... 32%  132M 0s
+  2750K .......... .......... .......... .......... .......... 32% 93.4M 0s
+  2800K .......... .......... .......... .......... .......... 33%  131M 0s
+  2850K .......... .......... .......... .......... .......... 34% 94.8M 0s
+  2900K .......... .......... .......... .......... .......... 34%  125M 0s
+  2950K .......... .......... .......... .......... .......... 35% 69.4M 0s
+  3000K .......... .......... .......... .......... .......... 35% 93.3M 0s
+  3050K .......... .......... .......... .......... .......... 36% 1.95M 0s
+  3100K .......... .......... .......... .......... .......... 37%  131M 0s
+  3150K .......... .......... .......... .......... .......... 37% 93.8M 0s
+  3200K .......... .......... .......... .......... .......... 38% 45.3M 0s
+  3250K .......... .......... .......... .......... .......... 38%  115M 0s
+  3300K .......... .......... .......... .......... .......... 39% 21.7M 0s
+  3350K .......... .......... .......... .......... .......... 40%  134M 0s
+  3400K .......... .......... .......... .......... .......... 40% 96.1M 0s
+  3450K .......... .......... .......... .......... .......... 41%  141M 0s
+  3500K .......... .......... .......... .......... .......... 41% 70.0M 0s
+  3550K .......... .......... .......... .......... .......... 42% 91.4M 0s
+  3600K .......... .......... .......... .......... .......... 42% 96.1M 0s
+  3650K .......... .......... .......... .......... .......... 43% 94.7M 0s
+  3700K .......... .......... .......... .......... .......... 44% 70.1M 0s
+  3750K .......... .......... .......... .......... .......... 44% 46.5M 0s
+  3800K .......... .......... .......... .......... .......... 45% 95.4M 0s
+  3850K .......... .......... .......... .......... .......... 45%  141M 0s
+  3900K .......... .......... .......... .......... .......... 46% 48.9M 0s
+  3950K .......... .......... .......... .......... .......... 47% 33.8M 0s
+  4000K .......... .......... .......... .......... .......... 47% 32.5M 0s
+  4050K .......... .......... .......... .......... .......... 48%  140M 0s
+  4100K .......... .......... .......... .......... .......... 48%  112M 0s
+  4150K .......... .......... .......... .......... .......... 49% 96.4M 0s
+  4200K .......... .......... .......... .......... .......... 50% 95.5M 0s
+  4250K .......... .......... .......... .......... .......... 50% 49.3M 0s
+  4300K .......... .......... .......... .......... .......... 51%  121M 0s
+  4350K .......... .......... .......... .......... .......... 51% 91.4M 0s
+  4400K .......... .......... .......... .......... .......... 52%  109M 0s
+  4450K .......... .......... .......... .......... .......... 52%  130M 0s
+  4500K .......... .......... .......... .......... .......... 53% 38.7M 0s
+  4550K .......... .......... .......... .......... .......... 54% 32.8M 0s
+  4600K .......... .......... .......... .......... .......... 54%  129M 0s
+  4650K .......... .......... .......... .......... .......... 55%  105M 0s
+  4700K .......... .......... .......... .......... .......... 55%  132M 0s
+  4750K .......... .......... .......... .......... .......... 56% 94.1M 0s
+  4800K .......... .......... .......... .......... .......... 57%  101M 0s
+  4850K .......... .......... .......... .......... .......... 57% 94.5M 0s
+  4900K .......... .......... .......... .......... .......... 58% 84.8M 0s
+  4950K .......... .......... .......... .......... .......... 58% 87.3M 0s
+  5000K .......... .......... .......... .......... .......... 59% 94.5M 0s
+  5050K .......... .......... .......... .......... .......... 60% 96.0M 0s
+  5100K .......... .......... .......... .......... .......... 60% 63.9M 0s
+  5150K .......... .......... .......... .......... .......... 61% 61.7M 0s
+  5200K .......... .......... .......... .......... .......... 61% 41.6M 0s
+  5250K .......... .......... .......... .......... .......... 62% 91.9M 0s
+  5300K .......... .......... .......... .......... .......... 62%  139M 0s
+  5350K .......... .......... .......... .......... .......... 63% 96.9M 0s
+  5400K .......... .......... .......... .......... .......... 64% 57.9M 0s
+  5450K .......... .......... .......... .......... .......... 64%  145M 0s
+  5500K .......... .......... .......... .......... .......... 65% 44.8M 0s
+  5550K .......... .......... .......... .......... .......... 65% 65.1M 0s
+  5600K .......... .......... .......... .......... .......... 66%  120M 0s
+  5650K .......... .......... .......... .......... .......... 67% 91.9M 0s
+  5700K .......... .......... .......... .......... .......... 67% 72.7M 0s
+  5750K .......... .......... .......... .......... .......... 68%  137M 0s
+  5800K .......... .......... .......... .......... .......... 68% 96.2M 0s
+  5850K .......... .......... .......... .......... .......... 69%  135M 0s
+  5900K .......... .......... .......... .......... .......... 70% 93.4M 0s
+  5950K .......... .......... .......... .......... .......... 70%  131M 0s
+  6000K .......... .......... .......... .......... .......... 71% 94.7M 0s
+  6050K .......... .......... .......... .......... .......... 71% 2.12M 0s
+  6100K .......... .......... .......... .......... .......... 72% 41.6M 0s
+  6150K .......... .......... .......... .......... .......... 72% 99.7M 0s
+  6200K .......... .......... .......... .......... .......... 73%  126M 0s
+  6250K .......... .......... .......... .......... .......... 74% 98.4M 0s
+  6300K .......... .......... .......... .......... .......... 74% 69.7M 0s
+  6350K .......... .......... .......... .......... .......... 75%  133M 0s
+  6400K .......... .......... .......... .......... .......... 75%  137M 0s
+  6450K .......... .......... .......... .......... .......... 76%  101M 0s
+  6500K .......... .......... .......... .......... .......... 77% 66.9M 0s
+  6550K .......... .......... .......... .......... .......... 77% 73.4M 0s
+  6600K .......... .......... .......... .......... .......... 78%  110M 0s
+  6650K .......... .......... .......... .......... .......... 78%  100M 0s
+  6700K .......... .......... .......... .......... .......... 79% 75.2M 0s
+  6750K .......... .......... .......... .......... .......... 80% 69.0M 0s
+  6800K .......... .......... .......... .......... .......... 80%  124M 0s
+  6850K .......... .......... .......... .......... .......... 81%  110M 0s
+  6900K .......... .......... .......... .......... .......... 81% 57.7M 0s
+  6950K .......... .......... .......... .......... .......... 82% 98.6M 0s
+  7000K .......... .......... .......... .......... .......... 83%  134M 0s
+  7050K .......... .......... .......... .......... .......... 83% 95.2M 0s
+  7100K .......... .......... .......... .......... .......... 84% 48.1M 0s
+  7150K .......... .......... .......... .......... .......... 84% 94.0M 0s
+  7200K .......... .......... .......... .......... .......... 85%  134M 0s
+  7250K .......... .......... .......... .......... .......... 85% 96.2M 0s
+  7300K .......... .......... .......... .......... .......... 86% 95.3M 0s
+  7350K .......... .......... .......... .......... .......... 87% 91.5M 0s
+  7400K .......... .......... .......... .......... .......... 87%  137M 0s
+  7450K .......... .......... .......... .......... .......... 88% 72.1M 0s
+  7500K .......... .......... .......... .......... .......... 88% 94.2M 0s
+  7550K .......... .......... .......... .......... .......... 89% 8.60M 0s
+  7600K .......... .......... .......... .......... .......... 90% 69.4M 0s
+  7650K .......... .......... .......... .......... .......... 90%  138M 0s
+  7700K .......... .......... .......... .......... .......... 91% 92.1M 0s
+  7750K .......... .......... .......... .......... .......... 91% 70.0M 0s
+  7800K .......... .......... .......... .......... .......... 92% 30.9M 0s
+  7850K .......... .......... .......... .......... .......... 93%  152M 0s
+  7900K .......... .......... .......... .......... .......... 93% 71.8M 0s
+  7950K .......... .......... .......... .......... .......... 94% 45.5M 0s
+  8000K .......... .......... .......... .......... .......... 94% 96.6M 0s
+  8050K .......... .......... .......... .......... .......... 95%  140M 0s
+  8100K .......... .......... .......... .......... .......... 95% 55.4M 0s
+  8150K .......... .......... .......... .......... .......... 96% 47.6M 0s
+  8200K .......... .......... .......... .......... .......... 97%  119M 0s
+  8250K .......... .......... .......... .......... .......... 97%  134M 0s
+  8300K .......... .......... .......... .......... .......... 98% 69.3M 0s
+  8350K .......... .......... .......... .......... .......... 98%  133M 0s
+  8400K .......... .......... .......... .......... .......... 99% 97.5M 0s
+  8450K .......... .......... .......... .......... ...       100% 79.0M=0.2s
+
+2022-09-23 04:07:17 (54.3 MB/s) - ‘/home/BKCPkg/tools/python38-libs-3.8.8-4.module_el8.5.0+896+eb9e77ba.x86_64.rpm’ saved [8697338/8697338]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/screen-4.6.2-10.el8.x86_64.rpm
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 595484 (582K) [application/x-rpm]
+Saving to: ‘/home/BKCPkg/tools/screen-4.6.2-10.el8.x86_64.rpm’
+
+     0K .......... .......... .......... .......... ..........  8%  136M 0s
+    50K .......... .......... .......... .......... .......... 17%  104M 0s
+   100K .......... .......... .......... .......... .......... 25% 53.1M 0s
+   150K .......... .......... .......... .......... .......... 34% 27.8M 0s
+   200K .......... .......... .......... .......... .......... 42%  111M 0s
+   250K .......... .......... .......... .......... .......... 51% 96.6M 0s
+   300K .......... .......... .......... .......... .......... 60%  140M 0s
+   350K .......... .......... .......... .......... .......... 68% 91.6M 0s
+   400K .......... .......... .......... .......... .......... 77%  134M 0s
+   450K .......... .......... .......... .......... .......... 85% 96.3M 0s
+   500K .......... .......... .......... .......... .......... 94%  131M 0s
+   550K .......... .......... .......... .                    100% 93.9M=0.007s
+
+2022-09-23 04:07:17 (82.3 MB/s) - ‘/home/BKCPkg/tools/screen-4.6.2-10.el8.x86_64.rpm’ saved [595484/595484]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/set_toolkit_src_root.py
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 805 [text/x-python]
+Saving to: ‘/home/BKCPkg/tools/set_toolkit_src_root.py’
+
+     0K                                                       100% 86.8M=0s
+
+2022-09-23 04:07:17 (86.8 MB/s) - ‘/home/BKCPkg/tools/set_toolkit_src_root.py’ saved [805/805]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/XmlCliKnobs.efi
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 287776 (281K) [application/octet-stream]
+Saving to: ‘/home/BKCPkg/tools/XmlCliKnobs.efi’
+
+     0K .......... .......... .......... .......... .......... 17% 52.4M 0s
+    50K .......... .......... .......... .......... .......... 35%  111M 0s
+   100K .......... .......... .......... .......... .......... 53%  136M 0s
+   150K .......... .......... .......... .......... .......... 71% 93.8M 0s
+   200K .......... .......... .......... .......... .......... 88% 91.4M 0s
+   250K .......... .......... .......... .                    100% 82.3M=0.003s
+
+2022-09-23 04:07:17 (87.0 MB/s) - ‘/home/BKCPkg/tools/XmlCliKnobs.efi’ saved [287776/287776]
+
+--2022-09-23 04:07:17--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/cmdtool_wht.efi
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 454512 (444K) [application/octet-stream]
+Saving to: ‘/home/BKCPkg/tools/cmdtool_wht.efi’
+
+     0K .......... .......... .......... .......... .......... 11% 71.3M 0s
+    50K .......... .......... .......... .......... .......... 22% 51.2M 0s
+   100K .......... .......... .......... .......... .......... 33% 93.7M 0s
+   150K .......... .......... .......... .......... .......... 45%  133M 0s
+   200K .......... .......... .......... .......... .......... 56% 96.1M 0s
+   250K .......... .......... .......... .......... .......... 67% 69.0M 0s
+   300K .......... .......... .......... .......... .......... 78% 88.1M 0s
+   350K .......... .......... .......... .......... .......... 90% 42.8M 0s
+   400K .......... .......... .......... .......... ...       100%  170M=0.006s
+
+2022-09-23 04:07:18 (76.2 MB/s) - ‘/home/BKCPkg/tools/cmdtool_wht.efi’ saved [454512/454512]
+
+--2022-09-23 04:07:18--  https://ubit-artifactory-sh.intel.com/artifactory/validationtools-sh-local/env/sut/linux/cmdtool_egs.efi
+Reusing existing connection to ubit-artifactory-sh.intel.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 447680 (437K) [application/octet-stream]
+Saving to: ‘/home/BKCPkg/tools/cmdtool_egs.efi’
+
+     0K .......... .......... .......... .......... .......... 11% 44.9M 0s
+    50K .......... .......... .......... .......... .......... 22% 94.0M 0s
+   100K .......... .......... .......... .......... .......... 34%  138M 0s
+   150K .......... .......... .......... .......... .......... 45% 97.8M 0s
+   200K .......... .......... .......... .......... .......... 57% 93.7M 0s
+   250K .......... .......... .......... .......... .......... 68% 67.6M 0s
+   300K .......... .......... .......... .......... .......... 80%  134M 0s
+   350K .......... .......... .......... .......... .......... 91% 93.3M 0s
+   400K .......... .......... .......... .......              100%  171M=0.005s
+
+2022-09-23 04:07:18 (88.9 MB/s) - ‘/home/BKCPkg/tools/cmdtool_egs.efi’ saved [447680/447680]
+
+FINISHED --2022-09-23 04:07:18--
+Total wall clock time: 4.5s
+Downloaded: 21 files, 84M in 2.0s (41.6 MB/s)
+ 
+
+2022/09/23 13:38:07 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; mkdir -p /opt/APP; rm -rf /opt/APP/xmlcli
+2022/09/23 13:38:07 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:38:07 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:38:08 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; cd /home/BKCPkg/tools; cd /home/BKCPkg/tools; xmlcli_zip=`ls | grep xmlcli`;unzip -o $xmlcli_zip -d /opt/APP
+2022/09/23 13:38:09 - Terminal_Log - INFO      - log_save.py : 22 line - out: Archive:  7.0_xmlcli_windows_linux_esxi_Python2&3_ipclean.zip
+   creating: /opt/APP/xmlcli/
+   creating: /opt/APP/xmlcli/docs/
+  inflating: /opt/APP/xmlcli/docs/BIOS_XML_CLI_Interface.ppt  
+  inflating: /opt/APP/xmlcli/docs/BKM_to_Enable_PyDev_ITPii_and_ XmlCli_in_Simics.docx  
+  inflating: /opt/APP/xmlcli/docs/conf.py  
+  inflating: /opt/APP/xmlcli/docs/DV XmlCli BKM.docx  
+  inflating: /opt/APP/xmlcli/docs/index.rst  
+  inflating: /opt/APP/xmlcli/docs/release_notes.rst  
+  inflating: /opt/APP/xmlcli/docs/Setup Option Modification in SPI Binary Image.docx  
+  inflating: /opt/APP/xmlcli/docs/XmlCli Setup and Guide to access UEFI variables.docx  
+  inflating: /opt/APP/xmlcli/docs/XmlCli.docx  
+  inflating: /opt/APP/xmlcli/docs/XmlCliKnobs_BDE_BKM.docx  
+  inflating: /opt/APP/xmlcli/docs/XmlCli_ProcessUcode.docx  
+  inflating: /opt/APP/xmlcli/docs/XMLCLI_User_Guide_for_MCU_Patch_Editing.docx  
+   creating: /opt/APP/xmlcli/docs/_static/
+  inflating: /opt/APP/xmlcli/docs/_static/readme.txt  
+  inflating: /opt/APP/xmlcli/MANIFEST.in  
+  inflating: /opt/APP/xmlcli/PKG-INFO  
+   creating: /opt/APP/xmlcli/pysvtools/
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/baseipcxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/cliaccessutil.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/dcixmlcli.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Esxi/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Esxi/esxi_driver  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Esxi/libxmlcli.lso  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/esxixmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/inbandxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/itpiixmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/itpsimicsxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/itpxmlcli.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Linux/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Linux/libmem.lso  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Linux/libport.lso  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Linux/mymem.c  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Linux/port.c  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Linux/__init__.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/linuxxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/ltbxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Makefile  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/simicsxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/stubxmlcli.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/HalMessage.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/KfirInterface.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/KfirNTInterface.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/Makefile  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/NC2280Interface.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/PlxApi620_x64.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/SvHifCli.bat  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/SvHifHal.ini  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/SvHifWrapper.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/SvHifWrapper64Bit.dll  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/HalMessage.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/KfirInterface.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/KfirNTInterface.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/Makefile  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/NC2280Interface.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/PlxApi620_x64.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/x64/__init__.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvHif/__init__.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/svhifxmlcli.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/CombineFiles.bat  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/Interop.ITPHostInterfaceLib.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/Interop.ITPInternalLib.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/Interop.ITPLib.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/Interop.ITPVMCSLib.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/LegItpComExe.exe  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/Makefile  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/SvLegItp/StartPython.bat  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/svosxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/uefixmlcli.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Win/
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Win/ccbsdk/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Win/ccbsdk/CCHWApi.sys  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Win/ccbsdk/HWAPIDLL.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Win/Rw.exe  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Win/Rw.ini  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/Win/__init__.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/winhwaxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/winrwexmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/winsdkxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/winssaxmlcli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/access/__init__.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/cfg/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/cfg/BiosKnobs.ini  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/cfg/Makefile  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/eBiosSetupPage.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/KnobConfig.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/nvram.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/out/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/out/Makefile  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/README.md  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/ReadMe.txt  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/applyParams.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/Brotli.exe  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/colorapi.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cp36-win_amd64.pyd  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cp37-win_amd64.pyd  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cp38-win_amd64.pyd  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cp39-win_amd64.pyd  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cpython-36m-x86_64-linux-gnu.so  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cpython-37m-x86_64-linux-gnu.so  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cpython-38-x86_64-linux-gnu.so  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.cpython-39-x86_64-linux-gnu.so  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.pyd  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/EnableXmlCli.so  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/LzmaCompress  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/LzmaCompress.exe  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/Makefile  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/MyLog.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/parsingUtil.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/python27.dll  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/Rsa2048Sha256Sign.exe  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/SampleBiosKnobs.cfg  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/TianoCompress  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/TianoCompress.exe  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/toolbox.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/VaiyaktikChavi.bin  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/XmlCliKnobs.efi  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/XmlCliKnobs_EFI_App_Source.zip  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/tools/__init__.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/UefiFwParser.py  
+   creating: /opt/APP/xmlcli/pysvtools/xmlcli/uefi_parser/
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/uefi_parser/compress.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/uefi_parser/parser.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/uefi_parser/structure.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/uefi_parser/utils.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/uefi_parser/__init__.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/utils.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/XmlCli.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/XmlCliLib.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/XmlIniParser.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/_version.py  
+  inflating: /opt/APP/xmlcli/pysvtools/xmlcli/__init__.py  
+  inflating: /opt/APP/xmlcli/pysvtools/__init__.py  
+   creating: /opt/APP/xmlcli/pysvtools.xmlcli.egg-info/
+  inflating: /opt/APP/xmlcli/pysvtools.xmlcli.egg-info/dependency_links.txt  
+  inflating: /opt/APP/xmlcli/pysvtools.xmlcli.egg-info/namespace_packages.txt  
+  inflating: /opt/APP/xmlcli/pysvtools.xmlcli.egg-info/PKG-INFO  
+  inflating: /opt/APP/xmlcli/pysvtools.xmlcli.egg-info/requires.txt  
+  inflating: /opt/APP/xmlcli/pysvtools.xmlcli.egg-info/SOURCES.txt  
+  inflating: /opt/APP/xmlcli/pysvtools.xmlcli.egg-info/top_level.txt  
+  inflating: /opt/APP/xmlcli/README.txt  
+  inflating: /opt/APP/xmlcli/setup.cfg  
+  inflating: /opt/APP/xmlcli/setup.py  
+   creating: /opt/APP/xmlcli/tests/
+  inflating: /opt/APP/xmlcli/tests/Aakruti.py  
+  inflating: /opt/APP/xmlcli/tests/CommonTests.py  
+  inflating: /opt/APP/xmlcli/tests/conftest.py  
+  inflating: /opt/APP/xmlcli/tests/linux_test.sh  
+  inflating: /opt/APP/xmlcli/tests/Makefile  
+  inflating: /opt/APP/xmlcli/tests/pysv_config_icx_ipc1.ini  
+   creating: /opt/APP/xmlcli/tests/QA/
+  inflating: /opt/APP/xmlcli/tests/QA/BiosKnobs_CpuSv.ini  
+  inflating: /opt/APP/xmlcli/tests/QA/BiosKnobs_CpuSvItpAsHif.ini  
+  inflating: /opt/APP/xmlcli/tests/QA/BiosKnobs_SVOS.ini  
+  inflating: /opt/APP/xmlcli/tests/QA/Makefile  
+  inflating: /opt/APP/xmlcli/tests/QA/Putty_CpuSv.reg  
+  inflating: /opt/APP/xmlcli/tests/QA/Putty_Misc.reg  
+  inflating: /opt/APP/xmlcli/tests/QA/Putty_SVOS.reg  
+  inflating: /opt/APP/xmlcli/tests/QA/run.bat  
+  inflating: /opt/APP/xmlcli/tests/QA/RunPutty.bat  
+  inflating: /opt/APP/xmlcli/tests/QA/RunQa.bat  
+  inflating: /opt/APP/xmlcli/tests/QA/XmlCliQa.py  
+  inflating: /opt/APP/xmlcli/tests/QA/__init__.py  
+  inflating: /opt/APP/xmlcli/tests/SvCardMmio.py  
+   creating: /opt/APP/xmlcli/tests/SvSmm/
+  inflating: /opt/APP/xmlcli/tests/SvSmm/BrtAsmSampleCode.bin  
+  inflating: /opt/APP/xmlcli/tests/SvSmm/Makefile  
+  inflating: /opt/APP/xmlcli/tests/SvSmm/RdMsrArgBuff.bin  
+  inflating: /opt/APP/xmlcli/tests/SvSmm/RdMsrSampleSvCode.bin  
+  inflating: /opt/APP/xmlcli/tests/SvSmm/RetBuffdata.bin  
+  inflating: /opt/APP/xmlcli/tests/tests.config  
+  inflating: /opt/APP/xmlcli/tests/test_xmlcli_cmd.py  
+  inflating: /opt/APP/xmlcli/tests/UefiParserTest.py  
+  inflating: /opt/APP/xmlcli/tests/UnitTestHelper.py  
+  inflating: /opt/APP/xmlcli/tests/win_test.bat  
+  inflating: /opt/APP/xmlcli/tests/XmlCliCmd.py  
+  inflating: /opt/APP/xmlcli/tests/XmlCliTest.py  
+  inflating: /opt/APP/xmlcli/tests/__init__.py  
+  inflating: /opt/APP/xmlcli/tox.ini  
+  inflating: /opt/APP/xmlcli/wrapper_Version_7.0_core_version_1.6.1.txt  
+  inflating: /opt/APP/xmlcli/xmlcli_change_knobs.py  
+  inflating: /opt/APP/xmlcli/xmlcli_get_verify_knobs.py  
+  inflating: /opt/APP/xmlcli/xmlcli_path_setter.py  
+  inflating: /opt/APP/xmlcli/xmlcli_save_read_prog_knobs.py  
+ 
+
+2022/09/23 13:38:09 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:38:09 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; cd /home/BKCPkg/tools; cp *.efi /boot/efi/bkc_tool
+2022/09/23 13:38:09 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:38:09 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:38:10 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; ls /boot/efi/bkc_tool
+2022/09/23 13:38:10 - Terminal_Log - INFO      - log_save.py : 22 line - out: cmdtool_egs.efi
+cmdtool_wht.efi
+XmlCliKnobs.efi
+ 
+
+2022/09/23 13:38:10 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:38:10 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; cd /home/BKCPkg/tools;screen_name=`ls | grep screen-.*x86_64.rpm`;rpm -ivh $screen_name
+2022/09/23 13:38:11 - Terminal_Log - INFO      - log_save.py : 22 line - out: Verifying...                          ########################################
+Preparing...                          ########################################
+ 
+
+2022/09/23 13:38:11 - Terminal_Log - ERROR     - log_save.py : 28 line - err: warning: screen-4.6.2-10.el8.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 2f86d6a1: NOKEY
+	package screen-4.6.2-12.el8.x86_64 (which is newer than screen-4.6.2-10.el8.x86_64) is already installed
+	file /usr/bin/screen from install of screen-4.6.2-10.el8.x86_64 conflicts with file from package screen-4.6.2-12.el8.x86_64
+ 
+
+2022/09/23 13:38:11 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; rpm -qa screen
+2022/09/23 13:38:12 - Terminal_Log - INFO      - log_save.py : 22 line - out: screen-4.6.2-12.el8.x86_64
+ 
+
+2022/09/23 13:38:12 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:38:12 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; systemctl stop firewalld;systemctl disable firewalld
+2022/09/23 13:38:13 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/23 13:38:13 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:38:13 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; se_flag=0;se_file='/etc/selinux/config';sed -i '/^SELINUX=/{s/SELINUX=.*/SELINUX=disabled/}' $se_file;cat /etc/selinux/config |grep "^SELINUX="|awk -F"=" '{print $2}'
+2022/09/23 13:38:13 - Terminal_Log - INFO      - log_save.py : 22 line - out: disabled
+ 
+
+2022/09/23 13:38:13 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/23 13:38:14 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; cd /home/BKCPkg/tools;rpm -ivh ipmitool-1.8.18-14.el8.x86_64.rpm --force --nodeps
+2022/09/23 13:38:14 - Terminal_Log - INFO      - log_save.py : 22 line - out: Verifying...                          ########################################
+Preparing...                          ########################################
+Updating / installing...
+ipmitool-1.8.18-14.el8                ########################################
+ 
+
+2022/09/23 13:38:14 - Terminal_Log - ERROR     - log_save.py : 28 line - err: warning: ipmitool-1.8.18-14.el8.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY
+/sbin/ldconfig: File /usr/local/lib/libboost_prg_exec_monitor.so.1.78.0 is empty, not checked.
+/sbin/ldconfig: File /usr/local/lib/libboost_prg_exec_monitor.so is empty, not checked.
+/sbin/ldconfig: File /usr/local/lib/libboost_coroutine.so.1.78.0 is empty, not checked.
+/sbin/ldconfig: File /usr/local/lib/libboost_coroutine.so is empty, not checked.
+ 
+
+2022/09/23 13:38:15 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: unset http_proxy; unset http_proxy https_proxy; cd /home/BKCPkg/tools;rpm -ivh OpenIPMI-2.0.27-1.el8.x86_64.rpm --force --nodeps
+2022/09/23 13:38:15 - Terminal_Log - INFO      - log_save.py : 22 line - out: Verifying...                          ########################################
+Preparing...                          ########################################
+Updating / installing...
+OpenIPMI-2.0.27-1.el8                 ########################################
+ 
+
+2022/09/23 13:38:15 - Terminal_Log - ERROR     - log_save.py : 28 line - err: warning: OpenIPMI-2.0.27-1.el8.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY
+/sbin/ldconfig: File /usr/local/lib/libboost_prg_exec_monitor.so.1.78.0 is empty, not checked.
+/sbin/ldconfig: File /usr/local/lib/libboost_prg_exec_monitor.so is empty, not checked.
+/sbin/ldconfig: File /usr/local/lib/libboost_coroutine.so.1.78.0 is empty, not checked.
+/sbin/ldconfig: File /usr/local/lib/libboost_coroutine.so is empty, not checked.
+ 
+
+2022/09/23 13:38:15 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:38:17 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/auto-poc.zip to /home/BKCPkg/domains/virtualization/auto-poc.zip
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/check_pcidev_exist.py to /home/BKCPkg/domains/virtualization/virtualization_inband/check_pcidev_exist.py
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/cmd_check_utlis.py to /home/BKCPkg/domains/virtualization/virtualization_inband/cmd_check_utlis.py
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/get_cpu_num.py to /home/BKCPkg/domains/virtualization/virtualization_inband/get_cpu_num.py
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:18 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/lnx_exec_with_check.py to /home/BKCPkg/domains/virtualization/virtualization_inband/lnx_exec_with_check.py
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/log.py to /home/BKCPkg/domains/virtualization/virtualization_inband/log.py
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/qemu_telnet_excute_cmd.py to /home/BKCPkg/domains/virtualization/virtualization_inband/qemu_telnet_excute_cmd.py
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/resource_config_login.py to /home/BKCPkg/domains/virtualization/virtualization_inband/resource_config_login.py
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/vm_copy.py to /home/BKCPkg/domains/virtualization/virtualization_inband/vm_copy.py
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:19 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/vm_execute.py to /home/BKCPkg/domains/virtualization/virtualization_inband/vm_execute.py
+2022/09/23 13:38:20 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:38:20 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/vt_base.py to /home/BKCPkg/domains/virtualization/virtualization_inband/vt_base.py
+2022/09/23 13:38:20 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+

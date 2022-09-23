@@ -1,0 +1,3 @@
+2022/09/20 22:35:15 - Terminal_Log - INFO      - log_save.py : 25 line - This is  INFO of logger2 !!
+2022/09/20 22:35:15 - Terminal_Log - WARNING   - log_save.py : 26 line - This is  WARNING of logger2 !!
+2022/09/20 22:35:15 - Terminal_Log - ERROR     - log_save.py : 27 line - This is  ERROR of logger2 !!

@@ -1,0 +1,7 @@
+2022/09/22 17:43:19 - Terminal_Log - INFO      - log_save.py : 22 line - run the section python_env_step
+2022/09/22 17:43:19 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: C:\Python36\python.exe -m install --upgrade pip wheel -i  -i https://pypi.org/simple
+2022/09/22 17:43:19 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/22 17:43:19 - Terminal_Log - ERROR     - log_save.py : 28 line - err: C:\Python36\python.exe: No module named install
+ 
+

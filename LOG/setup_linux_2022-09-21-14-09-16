@@ -1,0 +1,63 @@
+2022/09/21 14:04:17 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization
+2022/09/21 14:04:17 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:17 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:18 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization/imgs
+2022/09/21 14:04:18 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:18 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:18 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization/tools
+2022/09/21 14:04:19 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:19 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:19 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization/vt_sut_linux_tools
+2022/09/21 14:04:19 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:19 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:20 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /home/BKCPkg/domains/virtualization/virtualization_inband
+2022/09/21 14:04:20 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:20 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:21 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;rm -rf /usr/bin/python; ln -s /usr/bin/python3.6 /usr/bin/python
+2022/09/21 14:04:21 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:21 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:21 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;rm -rf /usr/bin/pip;ln -s /usr/bin/pip3.6 /usr/bin/pip
+2022/09/21 14:04:21 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:21 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:22 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;mkdir -p /etc/yum.repos.d/repos.bak; mv /etc/yum.repos.d/* /etc/yum.repos.d/repos.bak
+2022/09/21 14:04:22 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:22 - Terminal_Log - ERROR     - log_save.py : 28 line - err: mv: cannot move '/etc/yum.repos.d/repos.bak' to a subdirectory of itself, '/etc/yum.repos.d/repos.bak/repos.bak'
+ 
+
+2022/09/21 14:04:23 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;rm -rf /root/auto_set_env/PyNaCl*;mkdir -p /root/auto_set_env
+2022/09/21 14:04:23 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:23 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:23 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;python -m pip install --upgrade pip
+2022/09/21 14:04:25 - Terminal_Log - INFO      - log_save.py : 22 line - out: Requirement already satisfied: pip in /usr/local/lib/python3.6/site-packages (21.3.1)
+ 
+
+2022/09/21 14:04:25 - Terminal_Log - ERROR     - log_save.py : 28 line - err: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+ 
+
+2022/09/21 14:04:26 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;rm -rf /home/BKCPkg/tools;mkdir -p /home/BKCPkg/tools
+2022/09/21 14:04:26 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:26 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+
+2022/09/21 14:04:26 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: export http_proxy=http://proxy-iind.intel.com:911; export https_proxy=http://proxy-iind.intel.com:911;rm -rf /boot/efi/bkc_tool;mkdir -p /boot/efi/bkc_tool
+2022/09/21 14:04:26 - Terminal_Log - INFO      - log_save.py : 22 line - out:  
+
+2022/09/21 14:04:26 - Terminal_Log - ERROR     - log_save.py : 28 line - err:  
+

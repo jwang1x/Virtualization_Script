@@ -1,0 +1,34 @@
+2022/09/23 13:36:40 - Terminal_Log - INFO      - log_save.py : 22 line - run the section load_script_step
+2022/09/23 13:36:41 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/auto-poc.zip to /home/BKCPkg/domains/virtualization/auto-poc.zip
+2022/09/23 13:36:42 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:42 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/check_pcidev_exist.py to /home/BKCPkg/domains/virtualization/virtualization_inband/check_pcidev_exist.py
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/cmd_check_utlis.py to /home/BKCPkg/domains/virtualization/virtualization_inband/cmd_check_utlis.py
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/get_cpu_num.py to /home/BKCPkg/domains/virtualization/virtualization_inband/get_cpu_num.py
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/lnx_exec_with_check.py to /home/BKCPkg/domains/virtualization/virtualization_inband/lnx_exec_with_check.py
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:43 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/log.py to /home/BKCPkg/domains/virtualization/virtualization_inband/log.py
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/qemu_telnet_excute_cmd.py to /home/BKCPkg/domains/virtualization/virtualization_inband/qemu_telnet_excute_cmd.py
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/resource_config_login.py to /home/BKCPkg/domains/virtualization/virtualization_inband/resource_config_login.py
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/vm_copy.py to /home/BKCPkg/domains/virtualization/virtualization_inband/vm_copy.py
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:44 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/vm_execute.py to /home/BKCPkg/domains/virtualization/virtualization_inband/vm_execute.py
+2022/09/23 13:36:45 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
+2022/09/23 13:36:45 - Terminal_Log - INFO      - log_save.py : 22 line - cp ../FILES/linux/virtualization/virtualization_inband/vt_base.py to /home/BKCPkg/domains/virtualization/virtualization_inband/vt_base.py
+2022/09/23 13:36:45 - Terminal_Log - INFO      - log_save.py : 22 line - cp done
+
