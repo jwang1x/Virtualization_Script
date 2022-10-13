@@ -1,4 +1,4 @@
-from init_moudle import *
+
 
 class Log():
 

@@ -39,7 +39,8 @@ class Ini_info():
         self.config.read(default_ini_name)
         assert (self.config.has_option("DEFAULT", "os"))
         os = self.config['DEFAULT']['os']
-        items = self.config.items(os)
+
+        items = self.config.items(os) + self.config.items('args')
 
         info_dict = {}
         for dict_trans in items:
