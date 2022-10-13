@@ -1,2 +1,0 @@
-2022/09/22 17:45:00 - Terminal_Log - INFO      - log_save.py : 22 line - run the section python_env_step
-2022/09/22 17:45:00 - Terminal_Log - INFO      - log_save.py : 22 line - run commnad: C:\Python36\python.exe -m pip install --upgrade pip wheel  -i https://pypi.org/simple
