@@ -1,49 +1,135 @@
-import ini_info
-import time
 import log_save
-import setup_vmware_env
-import setup_host_env
-import setup_linux_env
-import setup_windows_env
+import ini_info
+import client
+import copy
+import time
+import re
 
-class Set_OS():
+
+class Env_setup():
 
     def __init__(self):
-        self.default_ini_name = '../INI/sut.ini'
-        self.sut_ini_init = ini_info.Ini_info()
-        self.sut_ini_info = self.sut_ini_init.Read_OS_info(self.default_ini_name)
+        default_ini_name = '../INI/sut.ini'
+        self.info = ini_info.Ini_info()
+        self.sut_config_info = self.info.Read_OS_info(default_ini_name)
 
 
+        date_time = time.strftime('%Y-%m-%d-%H-%m-%S', time.localtime())
+        self.log = log_save.Log(f"../LOG/setup_{self.sut_config_info['os']}_{date_time}")
 
-    def main(self):
-        date_time = time.strftime('%Y-%m-%d-%H-%m-%S',time.localtime())
-        if self.sut_ini_info['os'] == 'linux':
-            log_file = f"../LOG/setup_linux_{date_time}"
-            self.log = log_save.Log(log_file)
-            set_up_l = setup_linux_env.Set_up_l(self.sut_ini_info,self.log)
-            set_up_l.main()
+        self.ssh = client.Ssh()
+        self.localhost = client.Local_host()
 
-        elif self.sut_ini_info['os'] == 'windows':
-            log_file = f"../LOG/setup_windows_{date_time}"
-            self.log = log_save.Log(log_file)
-            set_up_w = setup_windows_env.Set_up_w(self.sut_ini_info,self.log)
-            set_up_w.main()
+        self.sut_env_info = self.info.Read_env_info(self.sut_config_info['ini'])
 
-        elif self.sut_ini_info['os'] == 'vmware':
-            log_file = f"../LOG/setup_vmware_{date_time}"
-            self.log = log_save.Log(log_file)
-            set_up_v = setup_vmware_env.Set_up_v(self.sut_ini_info,self.log)
-            set_up_v.main()
+    def _args_deal_with(self):
 
-        elif self.sut_ini_info['os'] == 'host':
-            log_file = f"../LOG/setup_vmware_{date_time}"
-            self.log = log_save.Log(log_file)
-            set_up_v = setup_host_env.Set_up_h(self.sut_ini_info,self.log)
-            set_up_v.main()
+        if 'proxy' in self.sut_config_info.keys():
+            proxy = ' --proxy ' + self.sut_config_info['proxy']
 
         else:
-            self.log.log_error(f"error not os type {self.sut_ini_info['os']} in [linux,windows,vmware]")
-            assert False
+            proxy = ''
+
+        if 'pip_source' in self.sut_config_info.keys():
+            pip_source = '-i ' + self.sut_config_info['pip_source']
+        else:
+            pip_source = ' '
+
+        if 'powershell_path' in self.sut_config_info.keys():
+            powershell_path = self.sut_config_info['powershell_path']
+        else:
+            powershell_path = ' '
+
+        if 'python_path' in self.sut_config_info.keys():
+            python_path = self.sut_config_info['python_path']
+        else:
+            python_path = ' '
+
+        return proxy, pip_source, powershell_path,python_path
+
+
+    def _update_sut_info(self,keyword):
+        for section_key, section_value in self.sut_env_info.items():
+            if 'step' not in section_key:
+                continue
+            self.log.log_info(f"run the section {section_key}")
+            for key, value in section_value.items():
+                ext_info_dict = {}
+                if any([value for key_value in keyword if key_value in key]):
+                    if 'timeout' in value:
+                        for tmp_list in re.split(r',', value):
+                            if 'timeout' in tmp_list:
+                                ext_info_dict.update({'timeout': int(re.split('=', tmp_list)[1])})
+                            else:
+                                ext_info_dict.update({'command': tmp_list})
+                    else:
+                        ext_info_dict.update({'command': value})
+                    yield (key, ext_info_dict)
+
+
+    def _command_deal_with(self):
+        proxy, pip_source,powershell_path,python_path = self._args_deal_with()
+        for exec in self._update_sut_info(['cmd','yuminstall','pip','upload','sleep','powershell']):
+            sut_info = copy.deepcopy(self.sut_config_info)
+            if 'cmd' in exec[0]:
+                sut_info.update(exec[1])
+
+            elif 'yuminstall' in exec[0]:
+                tmp_proxy = f"export http_proxy=http://{self.sut_config_info['proxy']}; export https_proxy=http://{self.sut_config_info['proxy']};"
+                cmd = tmp_proxy +  f" yum install {exec[1]['command']} -y"
+                exec[1].update({'command':cmd})
+                sut_info.update(exec[1])
+
+            elif 'pip' in exec[0]:
+                cmd = f"{python_path} -m pip install {exec[1]['command']} --upgrade pip " + pip_source + proxy
+                exec[1].update({'command': cmd})
+                sut_info.update(exec[1])
+
+
+            elif 'upload' in exec[0]:
+                sut_info.update(exec[1])
+                sut_info.update({'local_dir': re.split(f',', exec[1]['command'])[0], 'remote_dir': re.split(',', exec[1]['command'])[1]})
+                sut_info.update({'upload':True})
+
+
+            elif 'sleep' in exec[0]:
+                sleep_time = int(exec[1]['command'])
+                start_count_time = 0
+                while start_count_time < sleep_time:
+                    time.sleep(1)
+                    start_count_time += 1
+                    self.log.log_info(f"sleep time {sleep_time}s : {start_count_time}s")
+
+                continue
+
+            elif 'powershell' in exec[0]:
+                cmd = f" {powershell_path}  {exec[1]['command']}"
+                exec[1].update({'command': cmd})
+                sut_info.update(exec[1])
+
+            yield sut_info
+
+
+    def excute_cmd(self):
+        for cmd_args in self._command_deal_with():
+            if cmd_args['os'] == 'host':
+                self.localhost.to_excute_shell_cmd(cmd_args,self.log)
+                pass
+            else:
+                if 'upload' in cmd_args.keys():
+                    self.ssh.to_upload_file(cmd_args,self.log)
+
+                else:
+                    self.ssh.to_excute_shell_cmd(cmd_args,self.log)
+
+    def main(self):
+        self.excute_cmd()
+
+
+
+
+
+
 
 
 
@@ -60,6 +146,5 @@ class Set_OS():
 
 
 if __name__ == "__main__":
-    os = Set_OS()
-    os.main()
-    pass
+    env = Env_setup()
+    env.main()
