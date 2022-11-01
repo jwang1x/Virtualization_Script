@@ -1,3 +1,4 @@
+import os.path
 import log_save
 import ini_info
 import client
@@ -15,7 +16,7 @@ class Env_setup():
 
 
         date_time = time.strftime('%Y-%m-%d-%H-%m-%S', time.localtime())
-        self.log = log_save.Log(f"../LOG/setup_{self.sut_config_info['os']}_{date_time}")
+        self.log = log_save.Log(f"../LOG/{self.sut_config_info['domain']}/{self.sut_config_info['os']}/setup_{self.sut_config_info['os']}_{date_time}")
 
         self.ssh = client.Ssh()
         self.localhost = client.Local_host()
@@ -49,27 +50,55 @@ class Env_setup():
 
 
     def _update_sut_info(self,keyword):
-        for section_key, section_value in self.sut_env_info.items():
-            if 'step' not in section_key:
-                continue
-            self.log.log_info(f"run the section {section_key}")
-            for key, value in section_value.items():
-                ext_info_dict = {}
-                if any([value for key_value in keyword if key_value in key]):
-                    if 'timeout' in value:
-                        for tmp_list in re.split(r',', value):
-                            if 'timeout' in tmp_list:
-                                ext_info_dict.update({'timeout': int(re.split('=', tmp_list)[1])})
+
+
+        if self.sut_env_info['deploy_case_step']['implementation'] == 'True':
+            __ini_path = self.sut_env_info['deploy_case_step']['case_ini_path']
+            for section_key, section_value in self.sut_env_info['deploy_case_step'].items():
+
+                if '.ini' not in section_key:
+                    continue
+
+                if not os.path.exists(f'{__ini_path}/{section_key}'):
+                    self.log.log_error(f"not found {__ini_path}/{section_key}")
+                    continue
+
+
+                if self.sut_env_info['deploy_case_step'][section_key] != 'True':
+                    continue
+
+                self.log.log_info(f"deploying {section_key}\n")
+                self.sut_case_env_info = self.info.Read_env_info(f'{__ini_path}/{section_key}')
+
+
+                for section_key, section_value in self.sut_case_env_info.items():
+                    if 'step' not in section_key:
+                        continue
+                    self.log.log_info(f"run the section {section_key}")
+
+                    if self.sut_case_env_info[section_key]['implementation'] != 'True':
+                        self.log.log_info(f"the section {section_key} no deployment required: skip the {section_key}\n")
+                        continue
+
+
+                    for key, value in section_value.items():
+                        ext_info_dict = {}
+                        if any([value for key_value in keyword if key_value in key]):
+                            if 'timeout' in value:
+                                for tmp_list in re.split(r',', value):
+                                    if 'timeout' in tmp_list:
+                                        ext_info_dict.update({'timeout': int(re.split('=', tmp_list)[1])})
+                                    else:
+                                        ext_info_dict.update({'command': tmp_list})
                             else:
-                                ext_info_dict.update({'command': tmp_list})
-                    else:
-                        ext_info_dict.update({'command': value})
-                    yield (key, ext_info_dict)
+                                ext_info_dict.update({'command': value})
+                            yield (key, ext_info_dict)
 
 
     def _command_deal_with(self):
         proxy, pip_source,powershell_path,python_path = self._args_deal_with()
         for exec in self._update_sut_info(['cmd','yuminstall','pip','upload','sleep','powershell']):
+
             sut_info = copy.deepcopy(self.sut_config_info)
             if 'cmd' in exec[0]:
                 sut_info.update(exec[1])
@@ -124,24 +153,6 @@ class Env_setup():
 
     def main(self):
         self.excute_cmd()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

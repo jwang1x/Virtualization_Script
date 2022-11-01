@@ -23,6 +23,22 @@ class Ini_info():
 
         return sut_env_dict
 
+    def Read_case_info(self,default_ini_name):
+        config_tmp = ConfigParser()
+        sut_env_dict = {}
+        config_tmp.read(default_ini_name)
+        sut_env = config_tmp.sections()
+        # print(sut_env)
+        for section in sut_env:
+            options = config_tmp.items(section)
+            tmp_dict ={}
+            for opt in options:
+                tmp_dict.update({opt[0]:opt[1]})
+
+            sut_env_dict.update({section:tmp_dict})
+
+        return sut_env_dict
+
     def Get_sections(self,default_ini_name):
         self.config.read(default_ini_name)
         sut_env = self.config.sections()
